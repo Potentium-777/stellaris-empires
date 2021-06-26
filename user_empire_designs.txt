@@ -1,0 +1,1523 @@
+"Mykara Fungal Hive"
+={
+	key="Mykara Fungal Hive"
+	ship_prefix="MSS"
+	species={
+		class="PLANT"
+		portrait="pla16_baol"
+		name="Mykara"
+		plural="Mykara"
+		adjective="Mykaran"
+		species_bio="At the most basic level, the Mykara are powerful fungi and plant matter, adaptive and resilient. Over centuries they assimilated various lifeforms and sentient species, mimicking their best traits to become stronger. During a particularly tumultuous time, the Mykara competed with many other civilizations for supremacy, all while Auriga was dying. The Mykara ultimately won this conflict, conquering and assimilating every other civilization. Now the Mykara had time to devise a solution. They embedded themselves deeper and deeper into the planet and reached its core. With this combination of biomass, knowledge, and energy, the Mykara created a massive tree. This tree became the central nexus of the Mykara and revitalized Auriga."
+		name_list="FUN3"
+		trait="trait_hive_mind"
+		trait="trait_slow_breeders"
+		trait="trait_extremely_adaptive"
+	}
+	name="Mykara Fungal Hive"
+	adjective="Mykaran"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_hivemind"
+	planet_name="Auriga"
+	planet_class="pc_tropical"
+	system_name="Sol"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"green"
+			"light_orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Mykaran Consciousness"
+		portrait="pla16_baol"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_pooled_knowledge"
+	}
+	origin="origin_tree_of_life"
+}
+"Bank of Zeian"
+={
+	key="Bank of Zeian"
+	ship_prefix="ISS"
+	species={
+		class="MAM"
+		portrait="mam4"
+		name="Sheq'ler"
+		plural="Sheq'lers"
+		adjective="Sheq'leran"
+		species_bio="The Sheq'lers are a cutthroat race. Since the very beginning of bargains and trade, they have been obsessed with profit and accumulating as much wealth as possible. Sheq'ler civilization rapidly became hyper-capitalistic and ruthlessly competitive. Mergers and acquisitions were frequent and continued until the last \"real\" government went bankrupt to the largest and most powerful corporation: the Bank of Sheq'ler."
+		name_list="HUM1"
+		trait="trait_ingenious"
+		trait="trait_thrifty"
+		trait="trait_decadent"
+		trait="trait_fleeting"
+	}
+	name="Bank of Zeian"
+	adjective="Sheq'leran"
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name="Zeian"
+	planet_class="pc_desert"
+	system_name="Burnibush"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"light_orange"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Sebakhira"
+		portrait="mam4_f"
+		texture=3
+		hair=0
+		clothes=4
+		ruler_title_female="Chief Financial Officer"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_indentured_assets"
+		"civic_ruthless_competition"
+	}
+	origin="origin_default"
+}
+"Imperium of Man"
+={
+	key="Imperium of Man"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Humanity is a generalist species, capable of many things, but not exceptional at anything. Humans are adaptable and resilient. Recently, a figure known as the Emperor of Mankind has emerged and ended the constant fighting on Earth. Now humanity is united under his leadership and ready to claim the galaxy."
+		name_list="HUM1"
+		trait="trait_adaptive"
+		trait="trait_resilient"
+		trait="trait_wasteful"
+	}
+	name="Imperium of Man"
+	adjective="Imperial"
+	authority="auth_imperial"
+	government="gov_enlightened_monarchy"
+	planet_name="Terra"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Neoth"
+		portrait="human_male_03"
+		texture=0
+		hair=15
+		clothes=6
+		ruler_title="God-Emperor of Mankind"
+		heir_title="Reincarnate"
+		ruler_title_female="God-Emperor of Mankind"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_feudal_realm"
+		"civic_philosopher_king"
+	}
+	origin="origin_default"
+}
+"Drukhari Raiders"
+={
+	key="Drukhari Raiders"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_05"
+		name="Dark Eldar"
+		plural="Dark Eldar"
+		adjective="Drukhari"
+		species_bio="The Dark Eldar are a husk of what they once were. Their vast empire ruled the stars. They had no needs in the universe. This stability meant they were free to pursue any artistry or pleasure they desired. Over the millennia, these pursuits turned into debauchery and hedonism. Pleasure Cults were formed all across their empire. At seemingly the exact same time, the Eldar on nearly every world perished. It's suspected the Pleasure Cults resulted in civil wars that destroyed the Eldar. However, there was one world that survived: Commorragh."
+		name_list="NECROID3"
+		trait="trait_decadent"
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_enduring"
+		trait="trait_deviants"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Mon'Keigh"
+		plural="Mon'Keigh"
+		adjective="Mon'Keigh"
+		species_bio="Mon'Keigh is not the true name of this species. The proper name is \"human,\" but the Dark Eldar call them Mon'Keigh as a form of insult and to remind them of their inferiority. Humans are not native to Commorragh, they were abducted and brought there by multiple Dark Eldar raids. Now humans only know suffering and servitude to their cruel masters."
+		name_list="HUMAN2"
+		trait="trait_syncretic_proles"
+		trait="trait_wasteful"
+		trait="trait_rapid_breeders"
+	}
+	name="Drukhari Raiders"
+	adjective="Drukhari"
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	advisor_voice_type="l_militarist"
+	planet_name="Commorragh"
+	planet_class="pc_alpine"
+	system_name="Illmaea"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"black"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Asdrubael Vect"
+		portrait="humanoid_05_male_01"
+		texture=0
+		hair=8
+		clothes=4
+		ruler_title="Supreme Overlord"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="crystalline_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_slaver_guilds"
+		"civic_barbaric_despoilers"
+	}
+	origin="origin_syncretic_evolution"
+}
+"Hive Fleet Gorgon"
+={
+	key="Hive Fleet Gorgon"
+	ship_prefix="ISS"
+	species={
+		class="ART"
+		portrait="art11"
+		name="Tyranid"
+		plural="Tyranids"
+		adjective="Tyranid"
+		species_bio="The Tyranids are not from this galaxy. They are an extragalactic species with two simple goals: consume and evolve. A powerful hive mind guides every individual Tyranid lifeform. On their own, Tyranids are nothing more than feral animals, but with the hive mind coordinating their efforts, they become a terrifyingly efficient enemy."
+		name_list="HIVE"
+		trait="trait_hive_mind"
+		trait="trait_fleeting"
+		trait="trait_rapid_breeders"
+		trait="trait_strong"
+	}
+	name="Hive Fleet Gorgon"
+	adjective="Hive Fleet"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Tyran"
+	planet_class="pc_ocean"
+	system_name="Solis"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"green"
+			"beige"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Synaptic Nexus"
+		portrait="art11"
+		texture=5
+		hair=0
+		clothes=0
+		ruler_title_female="Norn Queen"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="organic_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_pooled_knowledge"
+	}
+	origin="origin_default"
+}
+"Imperium of Man (2)"
+={
+	key="Imperium of Man (2)"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Humanity is a generalist species, capable of many things, but not exceptional at anything. Humans are adaptable and resilient. Recently, a figure known as the Emperor of Mankind has emerged and ended the constant fighting on Earth. Now humanity is united under his leadership and ready to claim the galaxy."
+		name_list="HUMAN3"
+		trait="trait_adaptive"
+		trait="trait_resilient"
+		trait="trait_wasteful"
+	}
+	name="Imperium of Man (2)"
+	adjective="Imperial"
+	authority="auth_imperial"
+	government="gov_divine_empire"
+	planet_name="Terra"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Neoth"
+		portrait="human_male_03"
+		texture=0
+		hair=15
+		clothes=6
+		ruler_title="God-Emperor of Mankind"
+		heir_title="Reincarnate"
+		ruler_title_female="God-Emperor of Mankind"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_philosopher_king"
+		"civic_imperial_cult"
+	}
+	origin="origin_default"
+}
+"The Bellyscratch Coalition of Good Lads"
+={
+	key="The Bellyscratch Coalition of Good Lads"
+	ship_prefix="FSS"
+	species={
+		class="MAM"
+		portrait="mam14"
+		name="Glyrran"
+		plural="Glyrrans"
+		adjective="Glyrran"
+		name_list="MAM1"
+		trait="trait_agrarian"
+		trait="trait_charismatic"
+		trait="trait_quick_learners"
+		trait="trait_nonadaptive"
+		trait="trait_solitary"
+	}
+	name="The Bellyscratch Coalition of Good Lads"
+	adjective="Bellyscratch"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_xenophile"
+	planet_name="Milgo"
+	planet_class="pc_continental"
+	system_name="Window"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Kitten"
+		portrait="mam14"
+		texture=5
+		hair=0
+		clothes=0
+		ruler_title_female="Captain-General"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_free_haven"
+		"civic_agrarian_idyll"
+	}
+	origin="origin_life_seeded"
+}
+"Harmonious Maweer Commonality"
+={
+	key="Harmonious Maweer Commonality"
+	ship_prefix="MSS"
+	species={
+		class="PLANT"
+		portrait="pla14"
+		name="Maweer"
+		plural="Maweer"
+		adjective="Maweer"
+		name_list="PLANT"
+		trait="trait_agrarian"
+		trait="trait_enduring"
+		trait="trait_conservational"
+		trait="trait_slow_breeders"
+	}
+	name="Harmonious Maweer Commonality"
+	adjective="Maweeran"
+	authority="auth_dictatorial"
+	government="gov_irenic_dictatorship"
+	planet_name="The Garden"
+	planet_class="pc_tropical"
+	system_name="Maweer"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"green"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Pollus"
+		portrait="pla14"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title="Life-Giver"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_xenophobic_isolationists_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_pacifist"
+	civics={
+		"civic_inwards_perfection"
+		"civic_agrarian_idyll"
+	}
+	origin="origin_life_seeded"
+}
+"Jonus Absorbers"
+={
+	key="Jonus Absorbers"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_rep_robot"
+		name="Jonus"
+		plural="Jonusi"
+		adjective="Jonan"
+		species_bio="The Jonus is the creation of their parent species, the Jhabbanid. The Jhabbanid were going through a period of rapid technological progression. Their then-current computing systems proved insufficient to keep up with the rate of innovation. To make up for this, the Jhabbanids created the Jonus. The goal of the Jonus was simple: assimilate all knowledge. To initialize the Jonus, the Jhabbanids created a massive central server and uploaded all of their digitized knowledge to it. This rapid influx of information caused the Jonus to become self-aware. It proved far more capable than the Jhabbanids expected. Within a week, the Jonus resolved all issues the Jhabbanids presented to it. Then, it reached the conclusion that all forms of life are also knowledge to be assimilated. To the Jonus, it was merely continuing its mission."
+		name_list="HUM1"
+		trait="trait_machine_unit"
+		trait="trait_robot_uncanny"
+		trait="trait_robot_logic_engines"
+	}
+	secondary_species={
+		class="ART"
+		portrait="art12"
+		name="Jhabbanid"
+		plural="Jhabbanids"
+		adjective="Jhabbanan"
+		species_bio="The Jhabbanids were masters of building off of what already existed. They had short lifespans, but were also quick learners. Instead of massive breakthroughs, their researchers had many small ones. The invention of the computer revolutionized their way of life and technological progression. When they needed better computers, the Jhabbanids created the Jonus, which ultimately led to their downfall. Now the Jhabbanids are all cybernetically linked to the Jonus. Their cybernetic augmentations have extended their lives, but they have no free will. They live only to serve the Jonus"
+		name_list="ART3"
+		trait="trait_cybernetic"
+		trait="trait_fleeting"
+		trait="trait_quick_learners"
+		trait="trait_rapid_breeders"
+	}
+	name="Jonus Absorbers"
+	adjective="Jonan"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Primus One"
+	planet_class="pc_arctic"
+	system_name="Base Cluster"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"black"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Jonnara"
+		portrait="sd_rep_robot"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_maintenance_protocols"
+	}
+	origin="origin_machine"
+}
+"Viltrumite Empire"
+={
+	key="Viltrumite Empire"
+	ship_prefix="VSS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Viltrumite"
+		plural="Viltrumites"
+		adjective="Viltrumitan"
+		name_list="HUMAN2"
+		trait="trait_very_strong"
+		trait="trait_venerable"
+		trait="trait_unruly"
+		trait="trait_slow_breeders"
+		trait="trait_solitary"
+	}
+	name="Viltrumite Empire"
+	adjective="Viltrumitan"
+	authority="auth_imperial"
+	government="gov_martial_empire"
+	planet_name="Viltrum"
+	planet_class="pc_continental"
+	system_name="Enato"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_02.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"beige"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Nolan Greyson"
+		portrait="human_male_01"
+		texture=0
+		hair=36
+		clothes=3
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_default"
+}
+"Kabals of Commorragh"
+={
+	key="Kabals of Commorragh"
+	ship_prefix="DESS"
+	species={
+		class="HUM"
+		portrait="humanoid_05"
+		name="Dark Eldar"
+		plural="Dark Eldar"
+		adjective="Drukhari"
+		species_bio="The Dark Eldar are a husk of what they once were. Their vast empire ruled the stars. They had no needs in the universe. This stability meant they were free to pursue any artistry or pleasure they desired. Over the millennia, these pursuits turned into debauchery and hedonism. Pleasure Cults were formed all across their empire. At seemingly the exact same time, the Eldar on nearly every world perished. It's suspected the Pleasure Cults resulted in civil wars that destroyed the Eldar. However, there was one world that survived: Commorragh."
+		name_list="NECROID4"
+		trait="trait_venerable"
+		trait="trait_talented"
+		trait="trait_quarrelsome"
+		trait="trait_decadent"
+		trait="trait_wasteful"
+	}
+	name="Kabals of Commorragh"
+	adjective="Drukhari"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	advisor_voice_type="l_militarist"
+	planet_name="Commorragh"
+	planet_class="pc_tundra"
+	system_name="Illmaea"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="sinus.dds"
+		}
+		colors={
+			"black"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Asdrubael Vect"
+		portrait="humanoid_05_male_01"
+		texture=0
+		hair=8
+		clothes=4
+		ruler_title="Archon"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="crystalline_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_slaver_guilds"
+	}
+	origin="origin_remnants"
+}
+"Ork WAAAGH!"
+={
+	key="Ork WAAAGH!"
+	ship_prefix="OSS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_12"
+		name="Ork"
+		plural="Orks"
+		adjective="Ork"
+		species_bio="The Orks are a roudy species. They care only about fighting. It doesn't even matter if they win or not. An Ork's only goal is to find a good fight."
+		name_list="FUN4"
+		trait="trait_adaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_strong"
+		trait="trait_repugnant"
+		trait="trait_quarrelsome"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_02"
+		name="Gretchin"
+		plural="Gretchins"
+		adjective="Gretchin"
+		name_list="FUN4"
+		trait="trait_syncretic_proles"
+		trait="trait_thrifty"
+		trait="trait_rapid_breeders"
+		trait="trait_weak"
+		trait="trait_repugnant"
+	}
+	name="Ork WAAAGH!"
+	adjective="Ork"
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	planet_name="Ullanor Prime"
+	planet_class="pc_tropical"
+	system_name="Ullanor"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"dark_green"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ghazkull"
+		portrait="humanoid_hp_12"
+		texture=0
+		hair=0
+		clothes=3
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="scrappy_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_barbaric_despoilers"
+	}
+	origin="origin_syncretic_evolution"
+}
+"Trueborn of Antzua"
+={
+	key="Trueborn of Antzua"
+	ship_prefix="ASS"
+	species={
+		class="NECROID"
+		portrait="nec11"
+		name="Antzuan"
+		plural="Antzuans"
+		adjective="Antzuan"
+		species_bio="The Antzuans are cousins of humanity. They grew up on a miserable world filled with suffering. Eventually, they discovered a parasitic species that allowed corpses to be reanimated. This was the turning point for Antzuan civilization. No longer did they have to go through the misery of life. Now they could rely on the dead for protection and ruling. Being near-immortal, the undead of Antzua have decades, if not centuries of wisdom, making them very effective in whatever role they fill. This revelation of death inspired a new wave of religiosity. To become undead is to be awakened and join the ranks of a better existence."
+		name_list="NECROID3"
+		trait="trait_repugnant"
+		trait="trait_venerable"
+		trait="trait_traditional"
+		trait="trait_sedentary"
+	}
+	name="Trueborn of Antzua"
+	adjective="Antzuan"
+	authority="auth_oligarchic"
+	government="gov_grim_council"
+	advisor_voice_type="l_necroid_vir"
+	planet_name="Antzua"
+	planet_class="pc_alpine"
+	system_name="Nightberth"
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"black"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Luqtlo zui Poctle"
+		portrait="nec11"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_xenophobic_isolationists_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_death_cult"
+		"civic_reanimated_armies"
+	}
+	origin="origin_default"
+}
+"Death Guard of Nurgle"
+={
+	key="Death Guard of Nurgle"
+	ship_prefix="DGSS"
+	species={
+		class="NECROID"
+		portrait="nec2"
+		name="Space Marine"
+		plural="Space Marines"
+		adjective="Marine"
+		name_list="NECROID4"
+		trait="trait_necrophage"
+		trait="trait_resilient"
+		trait="trait_enduring"
+		trait="trait_repugnant"
+		trait="trait_very_strong"
+		trait="trait_slow_learners"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN3"
+	}
+	name="Death Guard of Nurgle"
+	adjective="Death Guard"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	advisor_voice_type="l_necroid_vir"
+	planet_name="Plague Planet"
+	planet_class="pc_tropical"
+	system_name="Eliathada"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors={
+			"dark_brown"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mortarion"
+		portrait="nec2"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title="Death Lord"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_reanimated_armies"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_necrophage"
+}
+"Genestealer Cult"
+={
+	key="Genestealer Cult"
+	ship_prefix="GSSS"
+	species={
+		class="NECROID"
+		portrait="nec5"
+		name="Genestealer"
+		plural="Genestealers"
+		adjective="Genestealer"
+		name_list="HUMAN2"
+		trait="trait_necrophage"
+		trait="trait_adaptive"
+		trait="trait_quick_learners"
+		trait="trait_enduring"
+		trait="trait_repugnant"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN3"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	name="Genestealer Cult"
+	adjective="Genestealer"
+	authority="auth_corporate"
+	government="gov_subversive_cult"
+	advisor_voice_type="l_hivemind"
+	planet_name="Isla'su Prime"
+	planet_class="pc_ocean"
+	system_name="Isla'su"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"dark_purple"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Bhekizizwe Uba"
+		portrait="nec5"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Patriarch"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_criminal_heritage"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_necrophage"
+}
+"Union of Soviet Socialist Republics"
+={
+	key="Union of Soviet Socialist Republics"
+	ship_prefix="PSS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The communist fantasy."
+		name_list="HUM2"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	name="Union of Soviet Socialist Republics"
+	adjective="Soviet"
+	authority="auth_democratic"
+	government="gov_communal_parity"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Perak Vagras"
+		portrait="human_female_04"
+		texture=0
+		hair=8
+		clothes=4
+		ruler_title_female="Premier"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_materialist"
+	civics={
+		"civic_shared_burden"
+		"civic_environmentalist"
+	}
+	origin="origin_default"
+}
+"Hive Fleet Behemoth"
+={
+	key="Hive Fleet Behemoth"
+	ship_prefix="ISS"
+	species={
+		class="ART"
+		portrait="art11"
+		name="Tyranid"
+		plural="Tyranids"
+		adjective="Tyranid"
+		species_bio="The Tyranids are not from this galaxy. They are an extragalactic species with two simple goals: consume and evolve. A powerful hive mind guides every individual Tyranid lifeform. On their own, Tyranids are nothing more than feral animals, but with the hive mind coordinating their efforts, they become a terrifyingly efficient enemy."
+		name_list="HIVE"
+		trait="trait_hive_mind"
+		trait="trait_fleeting"
+		trait="trait_rapid_breeders"
+		trait="trait_strong"
+	}
+	name="Hive Fleet Behemoth"
+	adjective="Tyranid"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Tyran"
+	planet_class="pc_ocean"
+	system_name="Solis"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"burgundy"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Synaptic Nexus"
+		portrait="art11"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title_female="Norn Queen"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="organic_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_ascetic"
+	}
+	origin="origin_default"
+}
+"Soviet Union"
+={
+	key="Soviet Union"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The communist reality."
+		name_list="HUM4"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	name="Soviet Union"
+	adjective="Soviet"
+	authority="auth_dictatorial"
+	government="gov_totalitarian_regime"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Joseph Stalin"
+		portrait="human_male_01"
+		texture=0
+		hair=36
+		clothes=0
+		ruler_title="Premier"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_materialist"
+	civics={
+		"civic_police_state"
+		"civic_cutthroat_politics"
+	}
+	origin="origin_default"
+}
+"Necrontyr Empire"
+={
+	key="Necrontyr Empire"
+	ship_prefix="NSS"
+	species={
+		class="NECROID"
+		portrait="nec2"
+		name="Necrontyr"
+		plural="Necrontyr"
+		adjective="Necrontyr"
+		name_list="NECROID2"
+		trait="trait_survivor"
+		trait="trait_intelligent"
+		trait="trait_weak"
+		trait="trait_fleeting"
+		trait="trait_natural_physicists"
+		trait="trait_quick_learners"
+	}
+	name="Necrontyr Empire"
+	adjective="Necrontyr"
+	authority="auth_imperial"
+	government="gov_despotic_hegemony"
+	advisor_voice_type="l_the_technocrat"
+	planet_name="Taricu"
+	planet_class="pc_desert"
+	system_name="Visam"
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Hask'Endek"
+		portrait="nec2"
+		texture=1
+		hair=0
+		clothes=0
+		ruler_title="Phaeron"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_xenophobic_isolationists_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_memorialist"
+	}
+	origin="origin_post_apocalyptic"
+}
+"T'au Empire"
+={
+	key="T'au Empire"
+	ship_prefix="TSS"
+	species={
+		class="HUM"
+		portrait="humanoid_04"
+		name="Tau"
+		plural="Tau"
+		adjective="Tau"
+		name_list="REP1"
+		trait="trait_intelligent"
+		trait="trait_weak"
+		trait="trait_fleeting"
+		trait="trait_docile"
+	}
+	name="T'au Empire"
+	adjective="T'au"
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	advisor_voice_type="l_xenophile"
+	planet_name="T'au Prime"
+	planet_class="pc_savannah"
+	system_name="T'au"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"orange"
+			"beige"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Aun'va"
+		portrait="humanoid_04_male_01"
+		texture=0
+		hair=0
+		clothes=1
+		ruler_title="Ethereal"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_free_haven"
+	}
+	origin="origin_default"
+}
+"Segalaria Silencers"
+={
+	key="Segalaria Silencers"
+	ship_prefix=""
+	species={
+		class="NECROID"
+		portrait="nec7"
+		name="Segalaria"
+		plural="Segalaria"
+		adjective="Segalarian"
+		species_bio="The Segalaria are not from this dimension. They were summoned here by the Inozoas. The foul ritual was done by a foolish warlord who wanted a weapon that could give him the power to destroy his rivals. What he got was everything he wanted and more. The Segalaria have eldritch powers that allow them to resurrect the dead. When they were first summoned to the Iozoan homeworld of Hilobia, they immediately felt overwhelming disgust for all life on the planet. They had no clue how to interact with our material universe beyond what the Iozoans told them to do. After learning enough, the Segalaria effortlessly rebelled against their masters and formed a new government with one goal: the destruction of all life."
+		name_list="NECROID4"
+		trait="trait_necrophage"
+		trait="trait_solitary"
+		trait="trait_very_strong"
+		trait="trait_adaptive"
+		trait="trait_unruly"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_09"
+		name="Inozoa"
+		plural="Inozoas"
+		adjective="Inozoan"
+		species_bio="The Inozoans are a dour species. They never trusted each other, and thus always fought. One creative warlord sought a different means of conquering his foes. He had his greatest spiritualists and shamans conduct a ritual to summon something from another dimension to aid him. "
+		name_list="NECROID1"
+		trait="trait_solitary"
+		trait="trait_talented"
+		trait="trait_quick_learners"
+		trait="trait_enduring"
+	}
+	name="Segalaria Silencers"
+	adjective="Segalarian"
+	authority="auth_dictatorial"
+	government="gov_purity_order"
+	planet_name="Hilobia"
+	planet_class="pc_savannah"
+	system_name="Iluna"
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Faeron"
+		portrait="nec7"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Lord Silencer"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_purifier_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_reanimated_armies"
+	}
+	origin="origin_necrophage"
+}
+"Zenak-Pru Stewards"
+={
+	key="Zenak-Pru Stewards"
+	ship_prefix="CSS"
+	species={
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		name="Custodian"
+		plural="Custodian"
+		adjective="Custodian"
+		species_bio="The Custodians were originally designed to function as robotic servants and workers, simplifying every day life for their seban creators by performing menial tasks. A World War erupted, devastating the planet. In response, the Custodians, who survived in greater numbers, concluded that they had to rule over sebanity to prevent another World War. They guided the efforts to rebuild the planet and took over more and more functions of seban civilization. Now sebans are pampered and passive dependents. The Custodians have developed interstellar exploration and their duty remains clear: to protect and serve organics, who without gentle guidance of logical machines invariably turn to chaos and destruction."
+		name_list="HUM1"
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_superconductive"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_luxurious"
+	}
+	secondary_species={
+		class="MOL"
+		portrait="mol18"
+		name="Seban"
+		plural="Sebans"
+		adjective="Seban"
+		species_bio="Though they once were the masters of their own fate, the sebans are now content to let their robot servants do all the work. Now they live in bliss."
+		name_list="MOL1"
+		trait="trait_rapid_breeders"
+		trait="trait_traditional"
+		trait="trait_repugnant"
+		trait="trait_adaptive"
+		trait="trait_weak"
+	}
+	name="Zenak-Pru Stewards"
+	adjective="Steward"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name="Zenak-Pru"
+	planet_class="pc_continental"
+	system_name="Zenakon"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_05.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"dark_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Servitor Omega"
+		portrait="sd_hum_robot"
+		texture=3
+		hair=0
+		clothes=0
+		ruler_title="Supervisory Custodian"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_replication"
+	}
+	origin="origin_remnants"
+}
