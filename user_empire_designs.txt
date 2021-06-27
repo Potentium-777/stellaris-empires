@@ -81,12 +81,12 @@
 	name="Bank of Zeian"
 	adjective="Sheq'leran"
 	authority="auth_corporate"
-	government="gov_megacorporation"
+	government="gov_trade_league"
 	planet_name="Zeian"
 	planet_class="pc_desert"
 	system_name="Burnibush"
 	initializer=""
-	graphical_culture="arthropoid_01"
+	graphical_culture="molluscoid_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
@@ -123,7 +123,7 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_indentured_assets"
-		"civic_ruthless_competition"
+		"civic_free_traders"
 	}
 	origin="origin_default"
 }
