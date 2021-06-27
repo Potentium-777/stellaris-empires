@@ -79,7 +79,7 @@
 		trait="trait_fleeting"
 	}
 	name="Bank of Zeian"
-	adjective="Sheq'leran"
+	adjective="Sheq'lan"
 	authority="auth_corporate"
 	government="gov_trade_league"
 	planet_name="Zeian"
@@ -105,7 +105,7 @@
 		}
 	}
 	ruler={
-		gender=female
+		gender=male
 		name="Sebakhira"
 		portrait="mam4_f"
 		texture=3
