@@ -1667,3 +1667,71 @@
 	}
 	origin="origin_necrophage"
 }
+"Ugarlaki Wandering Merchants"
+={
+	key="Ugarlaki Wandering Merchants"
+	ship_prefix="ISS"
+	species={
+		class="MAM"
+		portrait="mam_rat"
+		name="Ugarlak"
+		plural="Ugarlaki"
+		adjective="Ugarlak"
+		species_bio="Rumor has it that the Ugarlaki are distantly related to the Sheq'lers. Unfortunately there's no way of confirming this, as neither the Sheq'lers nor the Ugarlaki will confirm being related. They will, however, acknowledge that both species lived on the Sheq'lers' home planet of Zeian. The Ugarlaki were technologically superior to the Sheq'lers, but held very different beliefs. These clashing beliefs resulted in high tensions between the two species. As the Bank of Zeian began buying out cities, the Ugarlaki knew their time on Zeian was coming to an end. They worked intensely to develop spacefaring technology. By the time the Bank of Zeian had the power to buy out entire nations, the Ugarlaki were able to flee and build artificial habitats and live among the stars."
+		name_list="MAM1"
+		trait="trait_void_dweller_1"
+		trait="trait_intelligent"
+		trait="trait_rapid_breeders"
+		trait="trait_quick_learners"
+		trait="trait_fleeting"
+		trait="trait_nonadaptive"
+	}
+	name="Ugarlaki Wandering Merchants"
+	adjective="Ugarlak"
+	authority="auth_corporate"
+	government="gov_trade_league"
+	planet_name="Kazzakar"
+	planet_class="pc_desert"
+	system_name="Kaz"
+	initializer="void_dweller_system"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mor J'Dir"
+		portrait="mam_rat"
+		texture=3
+		hair=0
+		clothes=2
+		ruler_title="Coin Master"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_metalheads_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_public_relations_specialists"
+		"civic_trading_posts"
+	}
+	origin="origin_void_dwellers"
+}
