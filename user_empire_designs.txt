@@ -8,7 +8,7 @@
 		name="Mykara"
 		plural="Mykara"
 		adjective="Mykaran"
-		species_bio="At the most basic level, the Mykara are powerful fungi and plant matter, adaptive and resilient. Over centuries they assimilated various lifeforms and sentient species, mimicking their best traits to become stronger. During a particularly tumultuous time, the Mykara competed with many other civilizations for supremacy, all while Auriga was dying. The Mykara ultimately won this conflict, conquering and assimilating every other civilization. Now the Mykara had time to devise a solution. They embedded themselves deeper and deeper into the planet and reached its core. With this combination of biomass, knowledge, and energy, the Mykara created a massive tree. This tree became the central nexus of the Mykara and revitalized Auriga."
+		species_bio="At the most basic level, the Mykara are powerful fungi and plant matter, adaptive and resilient. Over centuries they assimilated various lifeforms and sentient species, mimicking their best traits to become stronger. During a particularly tumultuous time, the Mykara competed with many other civilizations for supremacy, all while Auriga was dying. The Mykara ultimately won this conflict, conquering and assimilating every other civilization. With this victory, the Mykara were able to focus solely on keeping their planet alive. They embedded themselves deeper and deeper into Auriga and reached its core. With a combination of biomass, knowledge, and energy, the Mykara created a massive tree. This tree became the central nexus of the Mykara and revitalized Auriga."
 		name_list="FUN3"
 		trait="trait_hive_mind"
 		trait="trait_slow_breeders"
@@ -1117,6 +1117,8 @@
 		trait="trait_fleeting"
 		trait="trait_rapid_breeders"
 		trait="trait_strong"
+		trait="trait_repugnant"
+		trait="trait_adaptive"
 	}
 	name="Hive Fleet Behemoth"
 	adjective="Tyranid"
@@ -1376,9 +1378,10 @@
 		name_list="NECROID4"
 		trait="trait_necrophage"
 		trait="trait_solitary"
-		trait="trait_very_strong"
-		trait="trait_adaptive"
 		trait="trait_unruly"
+		trait="trait_slow_learners"
+		trait="trait_extremely_adaptive"
+		trait="trait_intelligent"
 	}
 	secondary_species={
 		class="HUM"
@@ -1436,8 +1439,8 @@
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
-		"civic_fanatic_purifiers"
 		"civic_reanimated_armies"
+		"civic_fanatic_purifiers"
 	}
 	origin="origin_necrophage"
 }
@@ -1520,4 +1523,68 @@
 		"civic_machine_replication"
 	}
 	origin="origin_remnants"
+}
+"Galactite Swarm"
+={
+	key="Galactite Swarm"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith2"
+		name="Galactite"
+		plural="Galactites"
+		adjective="Galactan"
+		species_bio="No one know where the Galactites originated from. They are also known as the devourers of worlds. All attempts to communicate with them have failed."
+		name_list="HUM1"
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_industrious"
+		trait="trait_lithoid_gaseous_byproducts"
+		trait="trait_repugnant"
+	}
+	name="Galactite Swarm"
+	adjective="Galactitan"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Taa"
+	planet_class="pc_arctic"
+	system_name="Evari"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"pink"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Galan"
+		portrait="lith2"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="crystalline_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
+	}
+	origin="origin_lithoid"
 }
