@@ -1698,16 +1698,16 @@
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_2.dds"
+			category="corporate"
+			file="corporate_03.dds"
 		}
 		background={
 			category="backgrounds"
-			file="v.dds"
+			file="triangle_split.dds"
 		}
 		colors={
-			"red"
-			"black"
+			"red_orange"
+			"beige"
 			"null"
 			"null"
 		}
