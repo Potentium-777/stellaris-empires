@@ -1535,7 +1535,7 @@
 		plural="Galactites"
 		adjective="Galactan"
 		species_bio="No one know where the Galactites originated from. They are also known as the devourers of worlds. All attempts to communicate with them have failed."
-		name_list="HUM1"
+		name_list="LITHOID1"
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_industrious"
@@ -1587,4 +1587,83 @@
 		"civic_hive_subspace_ephapse"
 	}
 	origin="origin_lithoid"
+}
+"Silocite Masticators"
+={
+	key="Silocite Masticators"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith5"
+		name="Silocite"
+		plural="Silocites"
+		adjective="Silocitan"
+		name_list="LITHOID4"
+		trait="trait_lithoid"
+		trait="trait_necrophage"
+		trait="trait_lithoid_volatile_excretions"
+		trait="trait_intelligent"
+		trait="trait_natural_engineers"
+		trait="trait_unruly"
+		trait="trait_solitary"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_08"
+		name="Bebaki"
+		plural="Bebaki"
+		adjective="Bebakian"
+		name_list="HUM1"
+		trait="trait_ingenious"
+		trait="trait_strong"
+		trait="trait_industrious"
+		trait="trait_unruly"
+		trait="trait_solitary"
+	}
+	name="Silocite Masticators"
+	adjective="Silocitan"
+	authority="auth_oligarchic"
+	government="gov_science_directorate"
+	planet_name="Ferban"
+	planet_class="pc_alpine"
+	system_name="Jirv"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"black"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Intark Nock-Sheen"
+		portrait="lith5"
+		texture=3
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_meritocracy"
+		"civic_technocracy"
+	}
+	origin="origin_necrophage"
 }
