@@ -973,8 +973,8 @@
 		trait="trait_necrophage"
 		trait="trait_adaptive"
 		trait="trait_quick_learners"
-		trait="trait_enduring"
 		trait="trait_repugnant"
+		trait="trait_talented"
 	}
 	secondary_species={
 		class="HUM"
@@ -1667,7 +1667,7 @@
 	}
 	origin="origin_necrophage"
 }
-"Ugarlaki Wandering Merchants"
+"Ugarlaki Void Merchants"
 ={
 	key="Ugarlaki Wandering Merchants"
 	ship_prefix="ISS"
@@ -1677,7 +1677,7 @@
 		name="Ugarlak"
 		plural="Ugarlaki"
 		adjective="Ugarlak"
-		species_bio="Rumor has it that the Ugarlaki are distantly related to the Sheq'lers. Unfortunately there's no way of confirming this, as neither the Sheq'lers nor the Ugarlaki will confirm being related. They will, however, acknowledge that both species lived on the Sheq'lers' home planet of Zeian. The Ugarlaki were technologically superior to the Sheq'lers, but held very different beliefs. These clashing beliefs resulted in high tensions between the two species. As the Bank of Zeian began buying out cities, the Ugarlaki knew their time on Zeian was coming to an end. They worked intensely to develop spacefaring technology. By the time the Bank of Zeian had the power to buy out entire nations, the Ugarlaki were able to flee and build artificial habitats and live among the stars."
+		species_bio="Rumor has it that the Ugarlaki are distantly related to the Sheq'lers. Neither race will confirm this. They will, however, acknowledge that both species lived on the Sheq'lers' home planet of Zeian. The Ugarlaki were technologically superior to the Sheq'lers, but held very different beliefs. These clashing beliefs resulted in high tensions between the two species. As the Bank of Zeian began buying out cities, the Ugarlaki knew their time on Zeian was coming to an end, so they worked intensely to develop spacefaring technology. By the time the Bank of Zeian had the power to buy out entire nations, the Ugarlaki were able to flee and build artificial habitats and live among the stars."
 		name_list="MAM1"
 		trait="trait_void_dweller_1"
 		trait="trait_intelligent"
@@ -1734,4 +1734,80 @@
 		"civic_trading_posts"
 	}
 	origin="origin_void_dwellers"
+}
+"Forerunner Library Project"
+={
+	key="Forerunner Library Project"
+	ship_prefix="FSS"
+	species={
+		class="MACHINE"
+		portrait="default_robot"
+		name="Forerunner"
+		plural="Forerunners"
+		adjective="Forerunner"
+		name_list="MACHINE3"
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_emotion_emulators"
+		trait="trait_robot_repurposed_hardware"
+		trait="trait_robot_high_maintenance"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_10"
+		name="Cevanti"
+		plural="Cevanti"
+		adjective="Cevantian"
+		name_list="ART1"
+		trait="trait_adaptive"
+		trait="trait_traditional"
+		trait="trait_slow_breeders"
+		trait="trait_conservational"
+	}
+	name="Forerunner Library Project"
+	adjective="Forerunner"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name="Halo"
+	planet_class="pc_arid"
+	system_name="Soell"
+	initializer="shattered_ring_start"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"light_orange"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="343 Guilty Spark"
+		portrait="default_robot"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Caretaker"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_memorialist"
+	}
+	origin="origin_shattered_ring"
 }
