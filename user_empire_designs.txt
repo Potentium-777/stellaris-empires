@@ -1667,9 +1667,9 @@
 	}
 	origin="origin_necrophage"
 }
-"Ugarlaki Wandering Merchants"
+"Ugarlaki Void Merchants"
 ={
-	key="Ugarlaki Wandering Merchants"
+	key="Ugarlaki Void Merchants"
 	ship_prefix="ISS"
 	species={
 		class="MAM"
@@ -1686,7 +1686,7 @@
 		trait="trait_fleeting"
 		trait="trait_nonadaptive"
 	}
-	name="Ugarlaki Wandering Merchants"
+	name="Ugarlaki Void Merchants"
 	adjective="Ugarlak"
 	authority="auth_corporate"
 	government="gov_trade_league"
