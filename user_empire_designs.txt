@@ -1667,7 +1667,7 @@
 	}
 	origin="origin_necrophage"
 }
-"Ugarlaki Void Merchants"
+"Ugarlaki Wandering Merchants"
 ={
 	key="Ugarlaki Wandering Merchants"
 	ship_prefix="ISS"
@@ -1772,7 +1772,7 @@
 	planet_class="pc_arid"
 	system_name="Soell"
 	initializer="shattered_ring_start"
-	graphical_culture="mammalian_01"
+	graphical_culture="humanoid_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
@@ -1784,8 +1784,8 @@
 			file="circle.dds"
 		}
 		colors={
-			"light_orange"
 			"light_blue"
+			"light_orange"
 			"null"
 			"null"
 		}
@@ -1797,7 +1797,7 @@
 		texture=0
 		hair=0
 		clothes=0
-		ruler_title="Caretaker"
+		ruler_title="Monitor"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
