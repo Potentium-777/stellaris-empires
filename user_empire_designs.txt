@@ -1348,7 +1348,7 @@
 		texture=0
 		hair=0
 		clothes=1
-		ruler_title="Ethereal"
+		ruler_title="Ethereal Supreme"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
