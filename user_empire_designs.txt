@@ -391,7 +391,7 @@
 		ruler_title_female="God-Emperor of Mankind"
 		leader_class="ruler"
 	}
-	spawn_as_fallen=no
+	spawn_as_fallen=yes
 	ignore_portrait_duplication=no
 	room="personality_decadent_hierarchy_room"
 	spawn_enabled=yes
@@ -549,6 +549,8 @@
 		trait="trait_machine_unit"
 		trait="trait_robot_uncanny"
 		trait="trait_robot_logic_engines"
+		trait="trait_robot_custom_made"
+		trait="trait_robot_learning_algorithms"
 	}
 	secondary_species={
 		class="ART"
@@ -1813,4 +1815,79 @@
 		"civic_machine_memorialist"
 	}
 	origin="origin_shattered_ring"
+}
+"Illithid Imperium"
+={
+	key="Illithid Imperium"
+	ship_prefix="ISS"
+	species={
+		class="MOL"
+		portrait="mol11"
+		name="Illithid"
+		plural="Illithids"
+		adjective="Illithan"
+		name_list="MOL3"
+		trait="trait_necrophage"
+		trait="trait_weak"
+		trait="trait_decadent"
+		trait="trait_intelligent"
+		trait="trait_communal"
+		trait="trait_talented"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_13"
+		name="Ogre"
+		plural="Ogres"
+		adjective="Ogran"
+		name_list="HUM2"
+		trait="trait_very_strong"
+		trait="trait_slow_learners"
+	}
+	name="Illithid Imperium"
+	adjective="Illithan"
+	authority="auth_imperial"
+	government="gov_despotic_empire"
+	planet_name="Syr"
+	planet_class="pc_arctic"
+	system_name="Dys'Syr"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"black"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Nuvoll"
+		portrait="mol11"
+		texture=0
+		hair=0
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophobe"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_byzantine_bureaucracy"
+	}
+	origin="origin_necrophage"
 }
