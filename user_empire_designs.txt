@@ -911,6 +911,9 @@
 		plural="Humans"
 		adjective="Human"
 		name_list="HUMAN3"
+		trait="trait_wasteful"
+		trait="trait_nomadic"
+		trait="trait_adaptive"
 	}
 	name="Death Guard of Nurgle"
 	adjective="Death Guard"
@@ -1848,6 +1851,7 @@
 	adjective="Illithan"
 	authority="auth_imperial"
 	government="gov_despotic_empire"
+	advisor_voice_type="l_authoritarian"
 	planet_name="Syr"
 	planet_class="pc_arctic"
 	system_name="Dys'Syr"
@@ -1887,7 +1891,7 @@
 	ethic="ethic_xenophobe"
 	civics={
 		"civic_cutthroat_politics"
-		"civic_byzantine_bureaucracy"
+		"civic_slaver_guilds"
 	}
 	origin="origin_necrophage"
 }
