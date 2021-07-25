@@ -1599,7 +1599,7 @@
 "Silocite Masticators"
 ={
 	key="Silocite Masticators"
-	ship_prefix="ISS"
+	ship_prefix="SSS"
 	species={
 		class="LITHOID"
 		portrait="lith5"
@@ -1698,6 +1698,7 @@
 	adjective="Ugarlak"
 	authority="auth_corporate"
 	government="gov_trade_league"
+	advisor_voice_type="l_the_diplomat"
 	planet_name="Kazzakar"
 	planet_class="pc_desert"
 	system_name="Kaz"
@@ -1711,7 +1712,7 @@
 		}
 		background={
 			category="backgrounds"
-			file="triangle_split.dds"
+			file="stripes.dds"
 		}
 		colors={
 			"red_orange"
@@ -1894,4 +1895,70 @@
 		"civic_slaver_guilds"
 	}
 	origin="origin_necrophage"
+}
+"Galactite Devourers"
+={
+	key="Galactite Devourers"
+	ship_prefix="GSS"
+	species={
+		class="LITHOID"
+		portrait="lith7"
+		name="Galactite"
+		plural="Galactites"
+		adjective="Galactan"
+		name_list="LITHOID3"
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_industrious"
+		trait="trait_lithoid_scintillating"
+		trait="trait_slow_learners"
+		trait="trait_unruly"
+		trait="trait_strong"
+	}
+	name="Galactite Devourers"
+	adjective="Galactan"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Taa II"
+	planet_class="pc_desert"
+	system_name="Evari"
+	initializer="shattered_ring_start"
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"pink"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Galan"
+		portrait="lith7"
+		texture=2
+		hair=0
+		clothes=0
+		ruler_title="Herald"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="crystalline_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_natural_neural_network"
+	}
+	origin="origin_shattered_ring"
 }
