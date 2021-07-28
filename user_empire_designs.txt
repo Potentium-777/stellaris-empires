@@ -1962,9 +1962,9 @@
 	}
 	origin="origin_doomsday"
 }
-"Aztec Star Church"
+"Aztec Star Church, Inc."
 ={
-	key="Aztec Star Church"
+	key="Aztec Star Church, Inc."
 	ship_prefix=""
 	species={
 		class="NECROID"
@@ -1980,7 +1980,7 @@
 		trait="trait_quarrelsome"
 		trait="trait_intelligent"
 	}
-	name="Aztec Star Church"
+	name="Aztec Star Church, Inc."
 	adjective="Aztec"
 	authority="auth_corporate"
 	government="gov_sacrificial_megachurch"
