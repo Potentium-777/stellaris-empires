@@ -1920,9 +1920,9 @@
 	authority="auth_hive_mind"
 	government="gov_devouring_swarm"
 	planet_name="Taa II"
-	planet_class="pc_desert"
+	planet_class="pc_continental"
 	system_name="Evari"
-	initializer="shattered_ring_start"
+	initializer=""
 	graphical_culture="lithoid_01"
 	city_graphical_culture="lithoid_01"
 	empire_flag={
@@ -1960,5 +1960,70 @@
 		"civic_hive_devouring_swarm"
 		"civic_hive_natural_neural_network"
 	}
-	origin="origin_shattered_ring"
+	origin="origin_doomsday"
+}
+"Aztec Star Church"
+={
+	key="Aztec Star Church"
+	ship_prefix=""
+	species={
+		class="NECROID"
+		portrait="nec10"
+		name="Aztec"
+		plural="Aztecs"
+		adjective="Aztec"
+		name_list="NECROID2"
+		trait="trait_void_dweller_1"
+		trait="trait_thrifty"
+		trait="trait_nonadaptive"
+		trait="trait_conservational"
+		trait="trait_quarrelsome"
+		trait="trait_intelligent"
+	}
+	name="Aztec Star Church"
+	adjective="Aztec"
+	authority="auth_corporate"
+	government="gov_sacrificial_megachurch"
+	planet_name="Tenochtitlan"
+	planet_class="pc_continental"
+	system_name="Huitzilopochtli"
+	initializer="void_dweller_system"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors={
+			"red"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Unoth ins-Amun"
+		portrait="nec10"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_death_cult_corporate"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_void_dwellers"
 }
