@@ -1835,8 +1835,8 @@
 		trait="trait_weak"
 		trait="trait_decadent"
 		trait="trait_intelligent"
-		trait="trait_communal"
 		trait="trait_talented"
+		trait="trait_communal"
 	}
 	secondary_species={
 		class="HUM"
@@ -1882,6 +1882,7 @@
 		texture=0
 		hair=0
 		clothes=1
+		ruler_title="Elder Brain"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
