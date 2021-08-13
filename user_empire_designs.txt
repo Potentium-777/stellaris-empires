@@ -1592,7 +1592,7 @@
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_devouring_swarm"
-		"civic_hive_subspace_ephapse"
+		"civic_hive_natural_neural_network"
 	}
 	origin="origin_lithoid"
 }
@@ -1903,7 +1903,7 @@
 	ship_prefix="GSS"
 	species={
 		class="LITHOID"
-		portrait="lith7"
+		portrait="lith11"
 		name="Galactite"
 		plural="Galactites"
 		adjective="Galactan"
@@ -1912,9 +1912,9 @@
 		trait="trait_hive_mind"
 		trait="trait_industrious"
 		trait="trait_lithoid_scintillating"
-		trait="trait_slow_learners"
 		trait="trait_unruly"
-		trait="trait_strong"
+		trait="trait_repugnant"
+		trait="trait_intelligent"
 	}
 	name="Galactite Devourers"
 	adjective="Galactan"
@@ -1945,8 +1945,8 @@
 	ruler={
 		gender=female
 		name="Galan"
-		portrait="lith7"
-		texture=2
+		portrait="lith11"
+		texture=3
 		hair=0
 		clothes=0
 		ruler_title="Herald"
@@ -1959,7 +1959,7 @@
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_devouring_swarm"
-		"civic_hive_natural_neural_network"
+		"civic_hive_ascetic"
 	}
 	origin="origin_doomsday"
 }
@@ -2018,7 +2018,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="necroids_room"
+	room="personality_fanatic_purifier_room"
 	spawn_enabled=yes
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_spiritualist"
@@ -2027,4 +2027,83 @@
 		"civic_gospel_of_the_masses"
 	}
 	origin="origin_void_dwellers"
+}
+"Cydran Collectors"
+={
+	key="Cydran Collectors"
+	ship_prefix="CSS"
+	species={
+		class="MACHINE"
+		portrait="sd_pla_robot"
+		name="Cydran"
+		plural="Cydrans"
+		adjective="Cydran"
+		name_list="PLANT4"
+		trait="trait_machine_unit"
+		trait="trait_robot_superconductive"
+		trait="trait_robot_emotion_emulators"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_bulky"
+	}
+	secondary_species={
+		class="LITHOID"
+		portrait="lith8"
+		name="Rukkari"
+		plural="Rukkari"
+		adjective="Rukkarian"
+		name_list="LITHOID3"
+		trait="trait_lithoid"
+		trait="trait_cybernetic"
+		trait="trait_intelligent"
+		trait="trait_lithoid_scintillating"
+		trait="trait_natural_engineers"
+		trait="trait_unruly"
+		trait="trait_sedentary"
+	}
+	name="Cydran Collectors"
+	adjective="Cydran"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Mechaz Prime"
+	planet_class="pc_continental"
+	system_name="Mechaz"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"dark_green"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Glabu ka Pinnate"
+		portrait="sd_pla_robot"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_maintenance_protocols"
+	}
+	origin="origin_machine"
 }
