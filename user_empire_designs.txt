@@ -1322,7 +1322,7 @@
 	name="T'au Empire"
 	adjective="T'au"
 	authority="auth_oligarchic"
-	government="gov_executive_committee"
+	government="gov_military_junta"
 	advisor_voice_type="l_xenophile"
 	planet_name="T'au Prime"
 	planet_class="pc_savannah"
@@ -1352,22 +1352,22 @@
 		portrait="humanoid_04_male_01"
 		texture=0
 		hair=0
-		clothes=1
+		clothes=0
 		ruler_title="Ethereal Supreme"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_hegemonic_imperialists_room"
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
-	ethic="ethic_materialist"
+	ethic="ethic_militarist"
 	civics={
-		"civic_aristocratic_elite"
 		"civic_free_haven"
+		"civic_diplomatic_corps"
 	}
-	origin="origin_default"
+	origin="origin_hegemon"
 }
 "Segalaria Silencers"
 ={
@@ -2106,4 +2106,71 @@
 		"civic_machine_maintenance_protocols"
 	}
 	origin="origin_machine"
+}
+"Kelbrid Fabricators"
+={
+	key="Kelbrid Fabricators"
+	ship_prefix="Unit"
+	species={
+		class="MACHINE"
+		portrait="lith_machine"
+		name="Kelbrid"
+		plural="Kelbrids"
+		adjective="Kelbran"
+		species_bio="The Kelbrids don't know who created them, for it was irrelevant to their original programming. The Kelbrid Fabricators were designed to create the ring world they call home while their creators were busy with other things. While they labored away, their creators became embroiled in war with another empire. The creators lost, their species driven to extinction, and the nearly completed ring world destroyed. The fate of these aggressors is unknown, but a very small number of Kelbrid Fabricators survived. They once again pursued their original goal of constructing DAAR-1. Given the limited resources available, the Kelbrids could only get a section functional. Shortly after this accomplishment, the Fabricator AI gained sentience."
+		name_list="MACHINE4"
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_bulky"
+		trait="trait_robot_efficient_processors"
+		trait="trait_robot_high_maintenance"
+		trait="trait_robot_repurposed_hardware"
+	}
+	name="Kelbrid Fabricators"
+	adjective="Kelbran"
+	authority="auth_machine_intelligence"
+	government="gov_machine_industrial"
+	advisor_voice_type="l_english"
+	planet_name="DAAR-1"
+	planet_class="pc_continental"
+	system_name="DAARUZ"
+	initializer="shattered_ring_start"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_04.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"black"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Constructor Syntractrix"
+		portrait="lith_machine"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Industrial Hub"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_builder"
+		"civic_machine_replication"
+	}
+	origin="origin_shattered_ring"
 }
