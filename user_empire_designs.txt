@@ -2174,3 +2174,66 @@
 	}
 	origin="origin_shattered_ring"
 }
+"Adeptus Mechanicus"
+={
+	key="Adeptus Mechanicus"
+	ship_prefix="MSS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUM2"
+		trait="trait_adaptive"
+		trait="trait_wasteful"
+		trait="trait_natural_engineers"
+	}
+	name="Adeptus Mechanicus"
+	adjective="Mechanicus"
+	authority="auth_democratic"
+	government="gov_rational_consensus"
+	planet_name="Mars"
+	planet_class="pc_desert"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Vuld Toros"
+		portrait="human_male_01"
+		texture=0
+		hair=20
+		clothes=0
+		ruler_title="Fabricator-General"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_parliamentary_system"
+	}
+	origin="origin_mechanists"
+}
