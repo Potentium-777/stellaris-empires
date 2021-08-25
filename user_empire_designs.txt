@@ -59,7 +59,7 @@
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_hive_natural_neural_network"
-		"civic_hive_pooled_knowledge"
+		"civic_hive_ascetic"
 	}
 	origin="origin_tree_of_life"
 }
@@ -2239,4 +2239,67 @@
 		"civic_parliamentary_system"
 	}
 	origin="origin_mechanists"
+}
+"Sorann Silencers"
+={
+	key="Sorann Silencers"
+	ship_prefix="ISS"
+	species={
+		class="NECROID"
+		portrait="nec8"
+		name="Sorann"
+		plural="Sorannen"
+		adjective="Sorann"
+		name_list="HUM1"
+		trait="trait_adaptive"
+		trait="trait_strong"
+		trait="trait_solitary"
+	}
+	name="Sorann Silencers"
+	adjective="Sorann"
+	authority="auth_dictatorial"
+	government="gov_purity_order"
+	advisor_voice_type="l_xenophobe"
+	planet_name="Fleetcairn"
+	planet_class="pc_alpine"
+	system_name="Ailsa"
+	initializer=""
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"black"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dorokin"
+		portrait="nec8"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_shoulders_of_giants"
 }
