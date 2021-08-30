@@ -2303,3 +2303,68 @@
 	}
 	origin="origin_shoulders_of_giants"
 }
+"Prophets of Girridar"
+={
+	key="Prophets of Girridar"
+	ship_prefix=""
+	species={
+		class="MOL"
+		portrait="mol13"
+		name="Alari"
+		plural="Alari"
+		adjective="Alarian"
+		name_list="MOL3"
+		trait="trait_conformists"
+		trait="trait_wasteful"
+		trait="trait_traditional"
+		trait="trait_charismatic"
+		trait="trait_slow_breeders"
+	}
+	name="Prophets of Girridar"
+	adjective="Alarian"
+	authority="auth_corporate"
+	government="gov_subversive_cult"
+	advisor_voice_type="l_spiritualist"
+	planet_name="Girridar"
+	planet_class="pc_tundra"
+	system_name="Jagirsha"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_14.dds"
+		}
+		background={
+			category="backgrounds"
+			file="inverted_v.dds"
+		}
+		colors={
+			"pink"
+			"light_orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dov'ace"
+		portrait="mol13"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_gospel_of_the_masses"
+		"civic_criminal_heritage"
+	}
+	origin="origin_common_ground"
+}
