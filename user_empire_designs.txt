@@ -2368,3 +2368,68 @@
 	}
 	origin="origin_common_ground"
 }
+"Khessam Khonfederacy"
+={
+	key="Khessam Khonfederacy"
+	ship_prefix="KISS"
+	species={
+		class="AVI"
+		portrait="avi6"
+		name="Khessam"
+		plural="Khessam"
+		adjective="Khessam"
+		name_list="AVI1"
+		trait="trait_thrifty"
+		trait="trait_charismatic"
+		trait="trait_communal"
+		trait="trait_wasteful"
+		trait="trait_slow_breeders"
+	}
+	name="Khessam Khonfederacy"
+	adjective="Khessam"
+	authority="auth_oligarchic"
+	government="gov_irenic_bureaucracy"
+	planet_name="Loshyx"
+	planet_class="pc_savannah"
+	system_name="Loshyx'Oa"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"red"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Yuruuk"
+		portrait="avi6_f"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_byzantine_bureaucracy"
+		"civic_inwards_perfection"
+	}
+	origin="origin_scion"
+}
