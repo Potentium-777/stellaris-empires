@@ -2368,68 +2368,68 @@
 	}
 	origin="origin_common_ground"
 }
-"Khessam Khonfederacy"
+"Vogon State"
 ={
-	key="Khessam Khonfederacy"
-	ship_prefix="KISS"
+	key="Vogon State"
+	ship_prefix="VSS"
 	species={
-		class="AVI"
-		portrait="avi6"
-		name="Khessam"
-		plural="Khessam"
-		adjective="Khessam"
-		name_list="AVI1"
-		trait="trait_thrifty"
-		trait="trait_charismatic"
-		trait="trait_communal"
-		trait="trait_slow_breeders"
-		trait="trait_slow_learners"
+		class="NECROID"
+		portrait="nec12"
+		name="Vogon"
+		plural="Vogons"
+		adjective="Voge"
+		name_list="HUM3"
+		trait="trait_nonadaptive"
+		trait="trait_traditional"
+		trait="trait_docile"
+		trait="trait_conservational"
 	}
-	name="Khessam Khonfederacy"
-	adjective="Khessam"
+	name="Vogon State"
+	adjective="Vogon"
 	authority="auth_oligarchic"
 	government="gov_irenic_bureaucracy"
-	planet_name="Loshyx"
-	planet_class="pc_savannah"
-	system_name="Loshyx'Oa"
+	advisor_voice_type="l_the_diplomat"
+	planet_name="Vogsphere"
+	planet_class="pc_ocean"
+	system_name="Teary Mote"
 	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="avian_01"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_12.dds"
+			category="blocky"
+			file="flag_blocky_10.dds"
 		}
 		background={
 			category="backgrounds"
-			file="vertical.dds"
+			file="rounded_middle.dds"
 		}
 		colors={
-			"red"
-			"grey"
+			"black"
+			"dark_teal"
 			"null"
 			"null"
 		}
 	}
 	ruler={
-		gender=female
-		name="Yuruuk"
-		portrait="avi6_f"
+		gender=male
+		name="Jash na-Seter"
+		portrait="nec12"
 		texture=0
 		hair=0
-		clothes=0
+		clothes=2
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_spiritual_seekers_room"
+	room="machine_room"
 	spawn_enabled=yes
-	ethic="ethic_egalitarian"
+	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
 	ethic="ethic_pacifist"
 	civics={
 		"civic_byzantine_bureaucracy"
-		"civic_inwards_perfection"
+		"civic_functional_architecture"
 	}
 	origin="origin_scion"
 }
