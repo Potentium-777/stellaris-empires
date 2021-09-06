@@ -2379,10 +2379,10 @@
 		plural="Vogons"
 		adjective="Voge"
 		name_list="HUM3"
-		trait="trait_nonadaptive"
 		trait="trait_traditional"
 		trait="trait_docile"
-		trait="trait_conservational"
+		trait="trait_repugnant"
+		trait="trait_enduring"
 	}
 	name="Vogon State"
 	adjective="Vogon"
