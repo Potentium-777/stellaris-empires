@@ -2433,3 +2433,81 @@
 	}
 	origin="origin_scion"
 }
+"Shazarak Interface"
+={
+	key="Shazarak Interface"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_mam_robot"
+		name="Shazarak"
+		plural="Shazaraks"
+		adjective="Shazarak"
+		name_list="MACHINE2"
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_durable"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_learning_algorithms"
+	}
+	secondary_species={
+		class="LITHOID"
+		portrait="lith1"
+		name="Bodranite"
+		plural="Bodranites"
+		adjective="Bodranitan"
+		name_list="MACHINE1"
+		trait="trait_lithoid"
+		trait="trait_cybernetic"
+		trait="trait_industrious"
+		trait="trait_lithoid_scintillating"
+		trait="trait_sedentary"
+		trait="trait_deviants"
+	}
+	name="Shazarak Interface"
+	adjective="Shazarak"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Main Facility"
+	planet_class="pc_continental"
+	system_name="EN-14421"
+	initializer="shattered_ring_start"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"beige"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Combinatrix"
+		portrait="sd_mam_robot"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hive_mind_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_maintenance_protocols"
+	}
+	origin="origin_shattered_ring"
+}
