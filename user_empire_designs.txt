@@ -2511,3 +2511,68 @@
 	}
 	origin="origin_shattered_ring"
 }
+"Philosophers of Drull"
+={
+	key="Philosophers of Drull"
+	ship_prefix="SSS"
+	species={
+		class="MAM"
+		portrait="mam2"
+		name="Socrat"
+		plural="Socrats"
+		adjective="Socrat"
+		name_list="NECROID2"
+		trait="trait_natural_sociologists"
+		trait="trait_deviants"
+		trait="trait_unruly"
+		trait="trait_charismatic"
+		trait="trait_intelligent"
+	}
+	name="Philosophers of Drull"
+	adjective="Philosopher"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_pacifist"
+	planet_name="Drull"
+	planet_class="pc_continental"
+	system_name="Drull Ikrel"
+	initializer="custom_starting_init_01"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"beige"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Itu ins-Beht"
+		portrait="mam2"
+		texture=4
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_pacifist"
+	civics={
+		"civic_inwards_perfection"
+		"civic_parliamentary_system"
+	}
+	origin="origin_shoulders_of_giants"
+}
