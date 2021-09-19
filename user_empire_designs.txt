@@ -981,8 +981,8 @@
 		trait="trait_necrophage"
 		trait="trait_adaptive"
 		trait="trait_quick_learners"
-		trait="trait_repugnant"
 		trait="trait_talented"
+		trait="trait_unruly"
 	}
 	secondary_species={
 		class="HUM"
@@ -1927,7 +1927,7 @@
 	planet_name="Taa II"
 	planet_class="pc_continental"
 	system_name="Evari"
-	initializer=""
+	initializer="shattered_ring_start"
 	graphical_culture="lithoid_01"
 	city_graphical_culture="lithoid_01"
 	empire_flag={
@@ -1965,7 +1965,7 @@
 		"civic_hive_devouring_swarm"
 		"civic_hive_ascetic"
 	}
-	origin="origin_doomsday"
+	origin="origin_shattered_ring"
 }
 "Aztec Star Church, Inc."
 ={
@@ -2711,86 +2711,6 @@
 	}
 	origin="origin_post_apocalyptic"
 }
-"Edacious Bac'katta Prime"
-={
-	key="Edacious Bac'katta Prime"
-	ship_prefix="ISS"
-	species={
-		class="ART"
-		portrait="art13"
-		name="Bac'katta"
-		plural="Bac'kattans"
-		adjective="Bac'kattan"
-		species_bio="The Backatta are not a separate species, but rather the matriarchs of the Pi'rak. They give birth to all Pi'rak and serve as leaders. They are far more intelligent than their offspring and siblings. Their exceptional intelligence allowed them to develop their civilization and unite their kind into a hive mind. "
-		name_list="ART1"
-		trait="trait_hive_mind"
-		trait="trait_necrophage"
-		trait="trait_intelligent"
-		trait="trait_weak"
-		trait="trait_quick_learners"
-		trait="trait_slow_breeders"
-		trait="trait_adaptive"
-	}
-	secondary_species={
-		class="ART"
-		portrait="art1"
-		name="Pi'rak"
-		plural="Pi'rak"
-		adjective="Pi'rak"
-		species_bio="The Pi'rak are "
-		name_list="ART1"
-		trait="trait_rapid_breeders"
-		trait="trait_fleeting"
-		trait="trait_slow_learners"
-		trait="trait_industrious"
-	}
-	name="Edacious Bac'katta Prime"
-	adjective="Bac'kattan"
-	authority="auth_hive_mind"
-	government="gov_hive_mind"
-	planet_name="Zemm Opuk"
-	planet_class="pc_tundra"
-	system_name="Zaktoria"
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
-			category="zoological"
-			file="flag_zoological_3.dds"
-		}
-		background={
-			category="backgrounds"
-			file="double_hemispheres.dds"
-		}
-		colors={
-			"dark_grey"
-			"brown"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Vi-Ka"
-		portrait="art13"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title_female="Grand Matriarch"
-		leader_class="ruler"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="default_room"
-	spawn_enabled=yes
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_hive_divided_attention"
-		"civic_hive_pooled_knowledge"
-	}
-	origin="origin_necrophage"
-}
 "Dwarven Coalition"
 ={
 	key="Dwarven Coalition"
@@ -2815,7 +2735,7 @@
 	planet_class="pc_alpine"
 	system_name="Mituhar"
 	initializer=""
-	graphical_culture="reptilian_01"
+	graphical_culture="arthropoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
@@ -2854,4 +2774,69 @@
 		"civic_mining_guilds"
 	}
 	origin="origin_default"
+}
+"Triech Cult"
+={
+	key="Triech Cult"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_03"
+		name="Triech"
+		plural="Triechs"
+		adjective="Triech"
+		name_list="HUM1"
+		trait="trait_clone_soldier_infertile"
+		trait="trait_intelligent"
+		trait="trait_strong"
+		trait="trait_wasteful"
+		trait="trait_industrious"
+		trait="trait_repugnant"
+	}
+	name="Triech Cult"
+	adjective="Triech"
+	authority="auth_oligarchic"
+	government="gov_grim_council"
+	planet_name="Khellzakka"
+	planet_class="pc_arctic"
+	system_name="Khell"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"dark_grey"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Veldanura"
+		portrait="humanoid_03_male_01"
+		texture=0
+		hair=0
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_xenophobic_isolationists_room"
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_death_cult"
+		"civic_reanimated_armies"
+	}
+	origin="origin_clone_army"
 }
