@@ -1761,8 +1761,8 @@
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_emotion_emulators"
-		trait="trait_robot_repurposed_hardware"
 		trait="trait_robot_high_maintenance"
+		trait="trait_robot_bulky"
 	}
 	secondary_species={
 		class="HUM"
@@ -2839,4 +2839,69 @@
 		"civic_reanimated_armies"
 	}
 	origin="origin_clone_army"
+}
+"Ultron Sentience"
+={
+	key="Ultron Sentience"
+	ship_prefix="USS"
+	species={
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		name="Ultron"
+		plural="Ultrons"
+		adjective="Ultron"
+		name_list="MACHINE1"
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_efficient_processors"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_durable"
+	}
+	name="Ultron Sentience"
+	adjective="Ultron"
+	authority="auth_machine_intelligence"
+	government="gov_machine_terminator"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"grey"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Setun"
+		portrait="sd_hum_robot"
+		texture=2
+		hair=0
+		clothes=0
+		ruler_title="Ultron Alpha"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_terminator"
+		"civic_machine_unitary_cohesion"
+	}
+	origin="origin_machine"
 }
