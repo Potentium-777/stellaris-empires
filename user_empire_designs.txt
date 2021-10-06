@@ -127,7 +127,7 @@
 		"civic_indentured_assets"
 		"civic_free_traders"
 	}
-	origin="origin_common_ground"
+	origin="origin_galactic_doorstep"
 }
 "Imperium of Man"
 ={
@@ -2904,4 +2904,199 @@
 		"civic_machine_unitary_cohesion"
 	}
 	origin="origin_machine"
+}
+"Lyrite Partnership"
+={
+	key="Lyrite Partnership"
+	ship_prefix="ISS"
+	species={
+		class="REP"
+		portrait="rep1"
+		name="Lyrite"
+		plural="Lyrites"
+		adjective="Lyritan"
+		name_list="REP3"
+		trait="trait_clone_soldier_infertile"
+		trait="trait_charismatic"
+		trait="trait_unruly"
+		trait="trait_quick_learners"
+		trait="trait_talented"
+	}
+	name="Lyrite Partnership"
+	adjective="Lyritan"
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name="Zuif"
+	planet_class="pc_ocean"
+	system_name="Zuffur"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="corporate"
+			file="corporate_06.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors={
+			"grey"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rhass"
+		portrait="rep1"
+		texture=0
+		hair=0
+		clothes=5
+		ruler_title="Chief Party Officer"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_befrienders_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_corporate_hedonism"
+		"civic_corporate_crafters"
+	}
+	origin="origin_clone_army"
+}
+"Serene Lolehndra Empire"
+={
+	key="Serene Lolehndra Empire"
+	ship_prefix="LSS"
+	species={
+		class="FUN"
+		portrait="fun14"
+		name="Lolehndra"
+		plural="Lolehndrans"
+		adjective="Lolehndran"
+		name_list="FUN1"
+		trait="trait_traditional"
+		trait="trait_plantoid_phototrophic"
+		trait="trait_slow_breeders"
+		trait="trait_talented"
+		trait="trait_enduring"
+	}
+	name="Serene Lolehndra Empire"
+	adjective="Lolehndran"
+	authority="auth_imperial"
+	government="gov_celestial_empire"
+	planet_name="Mesh'Bennur"
+	planet_class="pc_tropical"
+	system_name="Meshka"
+	initializer="custom_starting_init_01"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Daggatuum Yu'll"
+		portrait="fun14"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_inwards_perfection"
+		"civic_philosopher_king"
+	}
+	origin="origin_shoulders_of_giants"
+}
+"Covenant Hegemony"
+={
+	key="Covenant Hegemony"
+	ship_prefix="ISS"
+	species={
+		class="REP"
+		portrait="rep1"
+		name="San'Shyuum"
+		plural="San'Shyuum"
+		adjective="San'Shyuum"
+		name_list="HUM1"
+		trait="trait_weak"
+		trait="trait_slow_breeders"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_charismatic"
+	}
+	name="Covenant Hegemony"
+	adjective="Covenant"
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	planet_name="Janjur Qom"
+	planet_class="pc_tropical"
+	system_name="Nharrbo"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"purple"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mikab"
+		portrait="rep1"
+		texture=0
+		hair=0
+		clothes=5
+		ruler_title="Prophet"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_migrating_flock_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_exalted_priesthood"
+		"civic_police_state"
+	}
+	origin="origin_shoulders_of_giants"
 }
