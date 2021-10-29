@@ -83,7 +83,7 @@
 	name="Bank of Zeian"
 	adjective="Sheq'lan"
 	authority="auth_corporate"
-	government="gov_trade_league"
+	government="gov_megacorporation"
 	planet_name="Zeian"
 	planet_class="pc_desert"
 	system_name="Burnibush"
@@ -125,7 +125,7 @@
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_indentured_assets"
-		"civic_free_traders"
+		"civic_public_relations_specialists"
 	}
 	origin="origin_galactic_doorstep"
 }
@@ -1547,10 +1547,10 @@
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_industrious"
-		trait="trait_repugnant"
 		trait="trait_fleeting_lithoid"
 		trait="trait_nomadic"
 		trait="trait_lithoid_volatile_excretions"
+		trait="trait_unruly"
 	}
 	name="Galactite Swarm"
 	adjective="Galactitan"
@@ -1851,6 +1851,8 @@
 		name_list="HUM2"
 		trait="trait_very_strong"
 		trait="trait_slow_learners"
+		trait="trait_resilient"
+		trait="trait_solitary"
 	}
 	name="Illithid Imperium"
 	adjective="Illithan"
@@ -2654,24 +2656,24 @@
 		name="Tyrathian"
 		plural="Tyrathians"
 		adjective="Tyrathian"
-		species_bio="When the Tyrathians were evolving on their home planet, the atmosphere was very weak. Radiation bombarded it relentlessly. The Tyrathians adapted to the massive amounts of radiation. Over millenia the atmosphere strengthened and the amount of radiation went down. This created a restless feeling deep in the Tyrathians. They became much more combative. As their civilization developed and technology improved, nuclear war was almost inevitable. The missiles and atomic bombs reverted Jibbasa to a state eerily similar to when the Tyrathians first evolved. A religion developed where they worshipped radiation. Now they see all non-irradiated life as an insult."
+		species_bio="The Tyrathians were relatively unremarkable as a civilization until they discovered radiation. Their home planet had a very thin atmosphere for most of their evolution, so they were adapted to absorb solar radiation. Just before Tyrathian civilization started developing, the atmosphere strengthened, depriving the Tyrathians of solar radiation. When uranium was discovered, it quickly became a highly demanded resource. This inevitably led to wars fought to control Jibbasa's radioactive supplies until Jibbasa became a tomb world. This unintentional terraforming led to a religious awakening. Now the Tyrathians worship the atom and nuclear physics as signs from their god."
 		name_list="FUN2"
 		trait="trait_survivor"
-		trait="trait_plantoid_budding"
 		trait="trait_plantoid_radiotrophic"
 		trait="trait_repugnant"
 		trait="trait_unruly"
 		trait="trait_adaptive"
+		trait="trait_plantoid_budding"
 	}
 	name="Tyrathian Irradiators"
 	adjective="Tyrathian"
-	authority="auth_dictatorial"
-	government="gov_purity_order"
+	authority="auth_oligarchic"
+	government="gov_purification_committee"
 	planet_name="Jibbasa"
-	planet_class="pc_continental"
+	planet_class="pc_arid"
 	system_name="Jib"
 	initializer=""
-	graphical_culture="fungoid_01"
+	graphical_culture="necroid_01"
 	city_graphical_culture="necroid_01"
 	empire_flag={
 		icon={
@@ -3114,6 +3116,8 @@
 		trait="trait_machine_unit"
 		trait="trait_robot_bulky"
 		trait="trait_robot_logic_engines"
+		trait="trait_robot_enhanced_memory"
+		trait="trait_robot_luxurious"
 	}
 	secondary_species={
 		class="LITHOID"
@@ -3252,21 +3256,21 @@
 		plural="Dark Eldar"
 		adjective="Drukhari"
 		name_list="HUM1"
-		trait="trait_intelligent"
 		trait="trait_unruly"
-		trait="trait_deviants"
 		trait="trait_venerable"
-		trait="trait_wasteful"
+		trait="trait_talented"
+		trait="trait_slow_breeders"
+		trait="trait_quick_learners"
 	}
 	name="Dark Eldar Kabals"
 	adjective="Dark Eldaran"
 	authority="auth_dictatorial"
-	government="gov_bandit_kingdom"
+	government="gov_military_dictatorship"
 	planet_name="Commorragh"
 	planet_class="pc_alpine"
 	system_name="Illmaea"
 	initializer="custom_starting_init_04"
-	graphical_culture="avian_01"
+	graphical_culture="necroid_01"
 	city_graphical_culture="necroid_01"
 	empire_flag={
 		icon={
@@ -3303,7 +3307,72 @@
 	ethic="ethic_militarist"
 	civics={
 		"civic_pleasure_seekers"
-		"civic_barbaric_despoilers"
+		"civic_cutthroat_politics"
 	}
 	origin="origin_default"
+}
+"Yru Throng"
+={
+	key="Yru Throng"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith4"
+		name="Yru"
+		plural="yru"
+		adjective="Yru"
+		name_list="LITHOID2"
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_lithoid_volatile_excretions"
+		trait="trait_nomadic"
+		trait="trait_industrious"
+		trait="trait_unruly"
+		trait="trait_solitary"
+	}
+	name="Yru Throng"
+	adjective="Yru"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Yra"
+	planet_class="pc_arctic"
+	system_name="Yri"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"dark_blue"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Neq Dite"
+		portrait="lith4"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="lithoid_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_catalytic_processing"
+		"civic_hive_devouring_swarm"
+	}
+	origin="origin_doomsday"
 }
