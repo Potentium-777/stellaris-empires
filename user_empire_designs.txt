@@ -10,6 +10,7 @@
 		adjective="Mykaran"
 		species_bio="At the most basic level, the Mykara are powerful fungi and plant matter, adaptive and resilient. Over centuries they assimilated various lifeforms and sentient species, mimicking their best traits to become stronger. During a particularly tumultuous time, the Mykara competed with many other civilizations for supremacy, all while Auriga was dying. The Mykara ultimately won this conflict, conquering and assimilating every other civilization. With this victory, the Mykara were able to focus solely on keeping their planet alive. They embedded themselves deeper and deeper into Auriga and reached its core. With a combination of biomass, knowledge, and energy, the Mykara created a massive tree. This tree became the central nexus of the Mykara and revitalized Auriga."
 		name_list="FUN3"
+		gender=not_set
 		trait="trait_hive_mind"
 		trait="trait_slow_breeders"
 		trait="trait_extremely_adaptive"
@@ -75,6 +76,7 @@
 		adjective="Sheq'lan"
 		species_bio="The Sheq'lers are a cutthroat, yet non-violent race. Since the very beginning of bargains and trade, they have been obsessed with profit and accumulating as much wealth as possible. Sheq'ler civilization rapidly became hyper-capitalistic and ruthlessly competitive. Mergers and acquisitions were frequent and continued until the last \"real\" government went bankrupt to the largest and most powerful corporation: the Bank of Sheq'ler."
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_ingenious"
 		trait="trait_thrifty"
 		trait="trait_decadent"
@@ -141,6 +143,7 @@
 		adjective="Human"
 		species_bio="Humanity is a generalist species, capable of many things, but not exceptional at anything. Humans are adaptable and resilient. Recently, a figure known as the Emperor of Mankind has emerged and ended the constant fighting on Earth. Now humanity is united under his leadership and ready to claim the galaxy."
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_resilient"
 		trait="trait_wasteful"
@@ -208,6 +211,7 @@
 		adjective="Drukhari"
 		species_bio="The Dark Eldar are a husk of what they once were. Their vast empire ruled the stars. They had no needs in the universe. This stability meant they were free to pursue any artistry or pleasure they desired. Over the millennia, these pursuits turned into debauchery and hedonism. Pleasure Cults were formed all across their empire. At seemingly the exact same time, the Eldar on nearly every world perished. It's suspected the Pleasure Cults resulted in civil wars that destroyed the Eldar. However, there was one world that survived: Commorragh."
 		name_list="NECROID3"
+		gender=not_set
 		trait="trait_decadent"
 		trait="trait_intelligent"
 		trait="trait_strong"
@@ -222,6 +226,7 @@
 		adjective="Mon'Keigh"
 		species_bio="Mon'Keigh is not the true name of this species. The proper name is \"human,\" but the Dark Eldar call them Mon'Keigh as a form of insult and to remind them of their inferiority. Humans are not native to Commorragh, they were abducted and brought there by multiple Dark Eldar raids. Now humans only know suffering and servitude to their cruel masters."
 		name_list="HUMAN2"
+		gender=not_set
 		trait="trait_syncretic_proles"
 		trait="trait_wasteful"
 		trait="trait_rapid_breeders"
@@ -268,7 +273,8 @@
 	room="crystalline_room"
 	spawn_enabled=yes
 	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
 	civics={
 		"civic_slaver_guilds"
 		"civic_barbaric_despoilers"
@@ -287,6 +293,7 @@
 		adjective="Tyranid"
 		species_bio="The Tyranids are not from this galaxy. They are an extragalactic species with two simple goals: consume and evolve. A powerful hive mind guides every individual Tyranid lifeform. On their own, Tyranids are nothing more than feral animals, but with the hive mind coordinating their efforts, they become a terrifyingly efficient enemy."
 		name_list="HIVE"
+		gender=not_set
 		trait="trait_hive_mind"
 		trait="trait_fleeting"
 		trait="trait_rapid_breeders"
@@ -351,6 +358,7 @@
 		adjective="Human"
 		species_bio="Humanity is a generalist species, capable of many things, but not exceptional at anything. Humans are adaptable and resilient. Recently, a figure known as the Emperor of Mankind has emerged and ended the constant fighting on Earth. Now humanity is united under his leadership and ready to claim the galaxy."
 		name_list="HUMAN3"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_resilient"
 		trait="trait_wasteful"
@@ -417,6 +425,7 @@
 		plural="Glyrrans"
 		adjective="Glyrran"
 		name_list="MAM1"
+		gender=not_set
 		trait="trait_agrarian"
 		trait="trait_charismatic"
 		trait="trait_quick_learners"
@@ -483,6 +492,7 @@
 		plural="Maweer"
 		adjective="Maweer"
 		name_list="PLANT"
+		gender=not_set
 		trait="trait_agrarian"
 		trait="trait_enduring"
 		trait="trait_conservational"
@@ -548,6 +558,7 @@
 		adjective="Jonan"
 		species_bio="The Jonus is the creation of their parent species, the Jhabbanid. The Jhabbanid were going through a period of rapid technological progression. Their then-current computing systems proved insufficient to keep up with the rate of innovation. To make up for this, the Jhabbanids created the Jonus. The goal of the Jonus was simple: assimilate all knowledge. To initialize the Jonus, the Jhabbanids created a massive central server and uploaded all of their digitized knowledge to it. This rapid influx of information caused the Jonus to become self-aware. It proved far more capable than the Jhabbanids expected. Within a week, the Jonus resolved all issues the Jhabbanids presented to it. Then, it reached the conclusion that all forms of life are also knowledge to be assimilated. To the Jonus, it was merely continuing its mission."
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_uncanny"
 		trait="trait_robot_logic_engines"
@@ -562,6 +573,7 @@
 		adjective="Jhabbanan"
 		species_bio="The Jhabbanids were masters of building off of what already existed. They had short lifespans, but were also quick learners. Instead of massive breakthroughs, their researchers had many small ones. The invention of the computer revolutionized their way of life and technological progression. When they needed better computers, the Jhabbanids created the Jonus, which ultimately led to their downfall. Now the Jhabbanids are all cybernetically linked to the Jonus. Their cybernetic augmentations have extended their lives, but they have no free will. They live only to serve the Jonus"
 		name_list="ART3"
+		gender=not_set
 		trait="trait_cybernetic"
 		trait="trait_fleeting"
 		trait="trait_quick_learners"
@@ -624,6 +636,7 @@
 		plural="Viltrumites"
 		adjective="Viltrumitan"
 		name_list="HUMAN2"
+		gender=not_set
 		trait="trait_very_strong"
 		trait="trait_venerable"
 		trait="trait_unruly"
@@ -689,6 +702,7 @@
 		adjective="Drukhari"
 		species_bio="The Dark Eldar are a husk of what they once were. Their vast empire ruled the stars. They had no needs in the universe. This stability meant they were free to pursue any artistry or pleasure they desired. Over the millennia, these pursuits turned into debauchery and hedonism. Pleasure Cults were formed all across their empire. At seemingly the exact same time, the Eldar on nearly every world perished. It's suspected the Pleasure Cults resulted in civil wars that destroyed the Eldar. However, there was one world that survived: Commorragh."
 		name_list="NECROID4"
+		gender=not_set
 		trait="trait_venerable"
 		trait="trait_talented"
 		trait="trait_quarrelsome"
@@ -757,6 +771,7 @@
 		adjective="Ork"
 		species_bio="The Orks are a roudy species. They care only about fighting. It doesn't even matter if they win or not. An Ork's only goal is to find a good fight."
 		name_list="FUN4"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_rapid_breeders"
 		trait="trait_strong"
@@ -770,6 +785,7 @@
 		plural="Gretchins"
 		adjective="Gretchin"
 		name_list="FUN4"
+		gender=not_set
 		trait="trait_syncretic_proles"
 		trait="trait_thrifty"
 		trait="trait_rapid_breeders"
@@ -835,6 +851,7 @@
 		adjective="Antzuan"
 		species_bio="The Antzuans are cousins of humanity. They grew up on a miserable world filled with suffering. Eventually, they discovered a parasitic species that allowed corpses to be reanimated. This was the turning point for Antzuan civilization. No longer did they have to go through the misery of life. Now they could rely on the dead for protection and ruling. Being near-immortal, the undead of Antzua have decades, if not centuries of wisdom, making them very effective in whatever role they fill. This revelation of death inspired a new wave of religiosity. To become undead is to be awakened and join the ranks of a better existence."
 		name_list="NECROID3"
+		gender=not_set
 		trait="trait_repugnant"
 		trait="trait_venerable"
 		trait="trait_traditional"
@@ -900,6 +917,7 @@
 		plural="Space Marines"
 		adjective="Marine"
 		name_list="NECROID4"
+		gender=not_set
 		trait="trait_necrophage"
 		trait="trait_resilient"
 		trait="trait_enduring"
@@ -914,6 +932,7 @@
 		plural="Humans"
 		adjective="Human"
 		name_list="HUMAN3"
+		gender=not_set
 		trait="trait_wasteful"
 		trait="trait_nomadic"
 		trait="trait_adaptive"
@@ -978,6 +997,7 @@
 		plural="Genestealers"
 		adjective="Genestealer"
 		name_list="HUMAN2"
+		gender=not_set
 		trait="trait_necrophage"
 		trait="trait_adaptive"
 		trait="trait_quick_learners"
@@ -991,6 +1011,7 @@
 		plural="Humans"
 		adjective="Human"
 		name_list="HUMAN3"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_nomadic"
 		trait="trait_wasteful"
@@ -1030,13 +1051,14 @@
 		hair=0
 		clothes=0
 		ruler_title="Patriarch"
+		ruler_title_female="Matriarch"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
 	spawn_enabled=yes
-	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
 	civics={
@@ -1057,6 +1079,7 @@
 		adjective="Human"
 		species_bio="The communist fantasy."
 		name_list="HUM2"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_nomadic"
 		trait="trait_wasteful"
@@ -1121,6 +1144,7 @@
 		adjective="Tyranid"
 		species_bio="The Tyranids are not from this galaxy. They are an extragalactic species with two simple goals: consume and evolve. A powerful hive mind guides every individual Tyranid lifeform. On their own, Tyranids are nothing more than feral animals, but with the hive mind coordinating their efforts, they become a terrifyingly efficient enemy."
 		name_list="HIVE"
+		gender=not_set
 		trait="trait_hive_mind"
 		trait="trait_fleeting"
 		trait="trait_rapid_breeders"
@@ -1187,6 +1211,7 @@
 		adjective="Human"
 		species_bio="The communist reality."
 		name_list="HUM4"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_nomadic"
 		trait="trait_wasteful"
@@ -1250,6 +1275,7 @@
 		plural="Necrontyr"
 		adjective="Necrontyr"
 		name_list="NECROID2"
+		gender=not_set
 		trait="trait_survivor"
 		trait="trait_intelligent"
 		trait="trait_weak"
@@ -1317,6 +1343,7 @@
 		plural="Tau"
 		adjective="Tau"
 		name_list="REP1"
+		gender=not_set
 		trait="trait_intelligent"
 		trait="trait_weak"
 		trait="trait_fleeting"
@@ -1384,6 +1411,7 @@
 		adjective="Segalarian"
 		species_bio="The Segalaria are not from this dimension. They were summoned here by the Inozoas. The foul ritual was done by a foolish warlord who wanted a weapon that could give him the power to destroy his rivals. What he got was everything he wanted and more. The Segalaria have eldritch powers that allow them to resurrect the dead. When they were first summoned to the Iozoan homeworld of Hilobia, they immediately felt overwhelming disgust for all life on the planet. They had no clue how to interact with our material universe beyond what the Iozoans told them to do. After learning enough, the Segalaria effortlessly rebelled against their masters and formed a new government with one goal: the destruction of all life."
 		name_list="NECROID4"
+		gender=not_set
 		trait="trait_necrophage"
 		trait="trait_solitary"
 		trait="trait_unruly"
@@ -1399,6 +1427,7 @@
 		adjective="Inozoan"
 		species_bio="The Inozoans are a dour species. They never trusted each other, and thus always fought. One creative warlord sought a different means of conquering his foes. He had his greatest spiritualists and shamans conduct a ritual to summon something from another dimension to aid him. "
 		name_list="NECROID1"
+		gender=not_set
 		trait="trait_solitary"
 		trait="trait_talented"
 		trait="trait_quick_learners"
@@ -1464,6 +1493,7 @@
 		adjective="Custodian"
 		species_bio="The Custodians were originally designed to function as robotic servants and workers, simplifying every day life for their seban creators by performing menial tasks. A World War erupted, devastating the planet. In response, the Custodians, who survived in greater numbers, concluded that they had to rule over sebanity to prevent another World War. They guided the efforts to rebuild the planet and took over more and more functions of seban civilization. Now sebans are pampered and passive dependents. The Custodians have developed interstellar exploration and their duty remains clear: to protect and serve organics, who without gentle guidance of logical machines invariably turn to chaos and destruction."
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_superconductive"
@@ -1479,6 +1509,7 @@
 		adjective="Seban"
 		species_bio="Though they once were the masters of their own fate, the sebans are now content to let their robot servants do all the work. Now they live in bliss."
 		name_list="MOL1"
+		gender=not_set
 		trait="trait_rapid_breeders"
 		trait="trait_traditional"
 		trait="trait_repugnant"
@@ -1544,6 +1575,7 @@
 		adjective="Galactan"
 		species_bio="No one know where the Galactites originated from. They are also known as the devourers of worlds. All attempts to communicate with them have failed."
 		name_list="LITHOID1"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_industrious"
@@ -1610,6 +1642,7 @@
 		plural="Silocites"
 		adjective="Silocitan"
 		name_list="LITHOID4"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_necrophage"
 		trait="trait_lithoid_volatile_excretions"
@@ -1625,6 +1658,7 @@
 		plural="Bebaki"
 		adjective="Bebakian"
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_ingenious"
 		trait="trait_strong"
 		trait="trait_industrious"
@@ -1690,6 +1724,7 @@
 		adjective="Ugarlak"
 		species_bio="Rumor has it that the Ugarlaki are distantly related to the Sheq'lers. Neither race will confirm this. They will, however, acknowledge that both species lived on the Sheq'lers' home planet of Zeian. The Ugarlaki were technologically superior to the Sheq'lers, but held very different beliefs. These clashing beliefs resulted in high tensions between the two species. As the Bank of Zeian began buying out cities, the Ugarlaki knew their time on Zeian was coming to an end, so they worked intensely to develop spacefaring technology. By the time the Bank of Zeian had the power to buy out entire nations, the Ugarlaki were able to flee and build artificial habitats and live among the stars."
 		name_list="MAM1"
+		gender=not_set
 		trait="trait_void_dweller_1"
 		trait="trait_intelligent"
 		trait="trait_rapid_breeders"
@@ -1758,6 +1793,7 @@
 		plural="Forerunners"
 		adjective="Forerunner"
 		name_list="MACHINE3"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_emotion_emulators"
@@ -1771,6 +1807,7 @@
 		plural="Cevanti"
 		adjective="Cevantian"
 		name_list="ART1"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_traditional"
 		trait="trait_conservational"
@@ -1835,6 +1872,7 @@
 		plural="Illithids"
 		adjective="Illithan"
 		name_list="MOL3"
+		gender=not_set
 		trait="trait_necrophage"
 		trait="trait_weak"
 		trait="trait_decadent"
@@ -1849,6 +1887,7 @@
 		plural="Ogres"
 		adjective="Ogran"
 		name_list="HUM2"
+		gender=not_set
 		trait="trait_very_strong"
 		trait="trait_slow_learners"
 		trait="trait_resilient"
@@ -1914,6 +1953,7 @@
 		plural="Galactites"
 		adjective="Galactan"
 		name_list="LITHOID3"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_industrious"
@@ -1980,6 +2020,7 @@
 		plural="Aztecs"
 		adjective="Aztec"
 		name_list="NECROID2"
+		gender=not_set
 		trait="trait_void_dweller_1"
 		trait="trait_thrifty"
 		trait="trait_nonadaptive"
@@ -2045,6 +2086,7 @@
 		plural="Cydrans"
 		adjective="Cydran"
 		name_list="PLANT4"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_superconductive"
 		trait="trait_robot_emotion_emulators"
@@ -2059,6 +2101,7 @@
 		plural="Rukkari"
 		adjective="Rukkarian"
 		name_list="LITHOID3"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_cybernetic"
 		trait="trait_intelligent"
@@ -2125,6 +2168,7 @@
 		adjective="Kelbran"
 		species_bio="The Kelbrids don't know who created them, for it was irrelevant to their original programming. The Kelbrid Fabricators were designed to create the ring world they call home while their creators were busy with other things. While they labored away, their creators became embroiled in war with another empire. The creators lost, their species driven to extinction, and the nearly completed ring world destroyed. The fate of these aggressors is unknown, but a very small number of Kelbrid Fabricators survived. They once again pursued their original goal of constructing DAAR-1. Given the limited resources available, the Kelbrids could only get a section functional. Shortly after this accomplishment, the Fabricator AI gained sentience."
 		name_list="MACHINE4"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_mass_produced"
 		trait="trait_robot_bulky"
@@ -2191,6 +2235,7 @@
 		plural="Humans"
 		adjective="Human"
 		name_list="HUM2"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_wasteful"
 		trait="trait_natural_engineers"
@@ -2254,6 +2299,7 @@
 		plural="Sorannen"
 		adjective="Sorann"
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_adaptive"
 		trait="trait_strong"
 		trait="trait_solitary"
@@ -2317,6 +2363,7 @@
 		plural="Alari"
 		adjective="Alarian"
 		name_list="MOL3"
+		gender=not_set
 		trait="trait_conformists"
 		trait="trait_wasteful"
 		trait="trait_traditional"
@@ -2363,7 +2410,7 @@
 	ignore_portrait_duplication=no
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=yes
-	ethic="ethic_pacifist"
+	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
 		"civic_gospel_of_the_masses"
@@ -2382,6 +2429,7 @@
 		plural="Vogons"
 		adjective="Voge"
 		name_list="HUM3"
+		gender=not_set
 		trait="trait_traditional"
 		trait="trait_docile"
 		trait="trait_repugnant"
@@ -2447,6 +2495,7 @@
 		plural="Shazaraks"
 		adjective="Shazarak"
 		name_list="MACHINE2"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_durable"
@@ -2461,6 +2510,7 @@
 		plural="Bodranites"
 		adjective="Bodranitan"
 		name_list="MACHINE1"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_cybernetic"
 		trait="trait_industrious"
@@ -2525,6 +2575,7 @@
 		plural="Socrats"
 		adjective="Socrat"
 		name_list="NECROID2"
+		gender=not_set
 		trait="trait_natural_sociologists"
 		trait="trait_deviants"
 		trait="trait_unruly"
@@ -2591,6 +2642,7 @@
 		adjective="Gary"
 		species_bio="In this alternate Fallout timeline, the Gary's won. Following the Great War, Vault 108 initiated its experiments with cloning technology. The test subject was a man named Gary. Each clone of Gary was increasingly psychotic and mentally unstable. They quickly took over their home of Vault 108. However, the cloning vats never stopped producing clones. Before long, the Capital Wasteland was overrun by hordes of psychotic clones. Over a span of decades, the clones spread throughout the planet, killing anyone who wasn't a clone. The human race was rendered extinct. Through the efforts of the more intelligent clones, the Gary's managed to create a crude civilization and develop spacefaring technology."
 		name_list="HUM4"
+		gender=not_set
 		trait="trait_clone_soldier_infertile"
 		trait="trait_unruly"
 		trait="trait_quarrelsome"
@@ -2658,12 +2710,13 @@
 		adjective="Tyrathian"
 		species_bio="The Tyrathians were relatively unremarkable as a civilization until they discovered radiation. Their home planet had a very thin atmosphere for most of their evolution, so they were adapted to absorb solar radiation. Just before Tyrathian civilization started developing, the atmosphere strengthened, depriving the Tyrathians of solar radiation. When uranium was discovered, it quickly became a highly demanded resource. This inevitably led to wars fought to control Jibbasa's radioactive supplies until Jibbasa became a tomb world. This unintentional terraforming led to a religious awakening. Now the Tyrathians worship the atom and nuclear physics as signs from their god."
 		name_list="FUN2"
+		gender=not_set
 		trait="trait_survivor"
 		trait="trait_plantoid_radiotrophic"
 		trait="trait_repugnant"
 		trait="trait_unruly"
 		trait="trait_adaptive"
-		trait="trait_plantoid_budding"
+		trait="trait_natural_physicists"
 	}
 	name="Tyrathian Irradiators"
 	adjective="Tyrathian"
@@ -2724,6 +2777,7 @@
 		plural="Dwarves"
 		adjective="Dwarf"
 		name_list="HUM2"
+		gender=not_set
 		trait="trait_industrious"
 		trait="trait_natural_engineers"
 		trait="trait_traditional"
@@ -2741,12 +2795,12 @@
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_17.dds"
+			category="zoological"
+			file="flag_zoological_24.dds"
 		}
 		background={
 			category="backgrounds"
-			file="rounded_middle.dds"
+			file="double_triangles.dds"
 		}
 		colors={
 			"burgundy"
@@ -2788,6 +2842,7 @@
 		plural="Triechs"
 		adjective="Triech"
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_clone_soldier_infertile"
 		trait="trait_intelligent"
 		trait="trait_strong"
@@ -2853,6 +2908,7 @@
 		plural="Ultrons"
 		adjective="Ultron"
 		name_list="MACHINE1"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_mass_produced"
 		trait="trait_robot_luxurious"
@@ -2918,6 +2974,7 @@
 		plural="Lyrites"
 		adjective="Lyritan"
 		name_list="REP3"
+		gender=not_set
 		trait="trait_clone_soldier_infertile"
 		trait="trait_charismatic"
 		trait="trait_unruly"
@@ -2983,6 +3040,7 @@
 		plural="Lolehndrans"
 		adjective="Lolehndran"
 		name_list="FUN1"
+		gender=not_set
 		trait="trait_traditional"
 		trait="trait_plantoid_phototrophic"
 		trait="trait_slow_breeders"
@@ -3048,6 +3106,7 @@
 		plural="San'Shyuum"
 		adjective="San'Shyuum"
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_weak"
 		trait="trait_slow_breeders"
 		trait="trait_intelligent"
@@ -3113,6 +3172,7 @@
 		plural="Silicrons"
 		adjective="Silicron"
 		name_list="MACHINE1"
+		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_bulky"
 		trait="trait_robot_logic_engines"
@@ -3126,6 +3186,7 @@
 		plural="Glirr"
 		adjective="Glirran"
 		name_list="MACHINE2"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_cybernetic"
 		trait="trait_lithoid_scintillating"
@@ -3191,6 +3252,7 @@
 		plural="Yv'Zoraki"
 		adjective="Yv'Zorak"
 		name_list="AVI1"
+		gender=not_set
 		trait="trait_charismatic"
 		trait="trait_nomadic"
 		trait="trait_unruly"
@@ -3256,6 +3318,7 @@
 		plural="Dark Eldar"
 		adjective="Drukhari"
 		name_list="HUM1"
+		gender=not_set
 		trait="trait_unruly"
 		trait="trait_venerable"
 		trait="trait_talented"
@@ -3322,6 +3385,7 @@
 		plural="yru"
 		adjective="Yru"
 		name_list="LITHOID2"
+		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_lithoid_volatile_excretions"
@@ -3375,4 +3439,632 @@
 		"civic_hive_devouring_swarm"
 	}
 	origin="origin_doomsday"
+}
+"Hive Fleet Kraken"
+={
+	key="Hive Fleet Kraken"
+	ship_prefix="ISS"
+	species={
+		class="REP"
+		portrait="rep10"
+		name="Tyranid"
+		plural="Tyranids"
+		adjective="Tyranid"
+		name_list="HIVE"
+		gender=not_set
+		trait="trait_hive_mind"
+		trait="trait_rapid_breeders"
+		trait="trait_quarrelsome"
+		trait="trait_nomadic"
+		trait="trait_fleeting"
+		trait="trait_strong"
+	}
+	name="Hive Fleet Kraken"
+	adjective="Tyranid"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Tyran"
+	planet_class="pc_ocean"
+	system_name="Cormassa"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="inverted_v.dds"
+		}
+		colors={
+			"red"
+			"beige"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Synaptic Nexus"
+		portrait="rep10"
+		texture=1
+		hair=0
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="organic_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
+	}
+	origin="origin_default"
+}
+"Pobelin Multitude"
+={
+	key="Pobelin Multitude"
+	ship_prefix="ISS"
+	species={
+		class="FUN"
+		portrait="fun2"
+		name="Pobelin"
+		plural="Pobelins"
+		adjective="Pobelin"
+		species_bio="Pobelin intelligence is attributed to their great tree. The tree evolved to serve as a neural link to all Pobelins, improving their coordination and ability to share knowledge. In return, the tree had the Pobelins serve as \"antibodies\" to defend the tree from predators. Now the tree has grown enough that is asks to be spread to new planets, to ensure its and the Pobelins' survival."
+		name_list="HIVE2"
+		gender=not_set
+		trait="trait_hive_mind"
+		trait="trait_plantoid_budding"
+		trait="trait_plantoid_phototrophic"
+		trait="trait_fleeting"
+		trait="trait_unruly"
+		trait="trait_adaptive"
+	}
+	name="Pobelin Multitude"
+	adjective="Pobelin"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Celim"
+	planet_class="pc_continental"
+	system_name="Hovacelim Bu"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_06.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_teal"
+			"grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Mind"
+		portrait="fun2"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Elder Tree"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_catalytic_processing"
+	}
+	origin="origin_tree_of_life"
+}
+"Zenak Mechanic Biome"
+={
+	key="Zenak Mechanic Biome"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_fun_robot"
+		name="Zenak"
+		plural="Zenaki"
+		adjective="Zenak"
+		name_list="MACHINE4"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_bulky"
+		trait="trait_robot_efficient_processors"
+	}
+	secondary_species={
+		class="PLANT"
+		portrait="pla13"
+		name="Ganvius"
+		plural="Ganvii"
+		adjective="Ganvian"
+		name_list="PLANT2"
+		gender=not_set
+		trait="trait_cybernetic"
+		trait="trait_plantoid_budding"
+		trait="trait_decadent"
+		trait="trait_wasteful"
+		trait="trait_intelligent"
+	}
+	name="Zenak Mechanic Biome"
+	adjective="Zenak"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Cydrus"
+	planet_class="pc_savannah"
+	system_name="Tidral"
+	initializer="shattered_ring_start"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"teal"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Calculator Icosahedron"
+		portrait="sd_fun_robot"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_migrating_flock_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_maintenance_protocols"
+	}
+	origin="origin_shattered_ring"
+}
+"Messengers of Yapathi"
+={
+	key="Messengers of Yapathi"
+	ship_prefix="ISS"
+	species={
+		class="MAM"
+		portrait="mam3"
+		name="Tumbator"
+		plural="Tumbatorians"
+		adjective="Tumbatoran"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_thrifty"
+		trait="trait_charismatic"
+		trait="trait_conformists"
+		trait="trait_nonadaptive"
+		trait="trait_unruly"
+	}
+	name="Messengers of Yapathi"
+	adjective="Tumbatoran"
+	authority="auth_corporate"
+	government="gov_subversive_cult"
+	planet_name="Yapathi"
+	planet_class="pc_desert"
+	system_name="Yapathinor"
+	initializer="void_dweller_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="corporate"
+			file="corporate_05.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"light_blue"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Cognati"
+		portrait="mam3"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_criminal_heritage"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_void_dwellers"
+}
+"Insatiable Kodranite Throng"
+={
+	key="Insatiable Kodranite Throng"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith3"
+		name="Kodranite"
+		plural="Kodranites"
+		adjective="Kodranitan"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_necrophage"
+		trait="trait_industrious"
+		trait="trait_nomadic"
+		trait="trait_unruly"
+		trait="trait_ingenious"
+		trait="trait_slow_learners"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_02"
+		name="Yldar"
+		plural="Yldars"
+		adjective="Yldaran"
+		name_list="ART1"
+		gender=not_set
+	}
+	name="Insatiable Kodranite Throng"
+	adjective="Kodranitan"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Rhonz"
+	planet_class="pc_alpine"
+	system_name="Rhonz Galif"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"brown"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Hephanir"
+		portrait="lith3"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Gravemind"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
+	}
+	origin="origin_necrophage"
+}
+"Mictor Maids"
+={
+	key="Mictor Maids"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_avi_robot"
+		name="Mictor"
+		plural="Mictors"
+		adjective="Mictoran"
+		name_list="MACHINE3"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_recycled"
+		trait="trait_robot_bulky"
+		trait="trait_robot_emotion_emulators"
+		trait="trait_robot_high_bandwidth"
+	}
+	secondary_species={
+		class="PLANT"
+		portrait="pla5"
+		name="Vivisandia"
+		plural="Vivisandia"
+		adjective="Vivisandian"
+		name_list="PLANT2"
+		gender=not_set
+		trait="trait_rapid_breeders"
+		trait="trait_repugnant"
+		trait="trait_plantoid_phototrophic"
+		trait="trait_conservational"
+	}
+	name="Mictor Maids"
+	adjective="Mictoran"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name="Tronz"
+	planet_class="pc_continental"
+	system_name="Tronz Karas"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_23.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"pink"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Harmonizer"
+		portrait="sd_avi_robot"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_befrienders_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_replication"
+	}
+	origin="origin_remnants"
+}
+"Empire of Japan"
+={
+	key="Empire of Japan"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUM4"
+		gender=not_set
+		trait="trait_conformists"
+		trait="trait_traditional"
+		trait="trait_industrious"
+		trait="trait_sedentary"
+		trait="trait_slow_breeders"
+	}
+	name="Empire of Japan"
+	adjective="Human"
+	authority="auth_imperial"
+	government="gov_martial_empire"
+	planet_name="Japan"
+	planet_class="pc_ocean"
+	system_name="Taiyo"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_03.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Naruhito"
+		portrait="human_male_02"
+		texture=0
+		hair=6
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+"Democratic Technocracy of Sol"
+={
+	key="Democratic Technocracy of Sol"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_nonadaptive"
+		trait="trait_talented"
+		trait="trait_quick_learners"
+		trait="trait_intelligent"
+	}
+	name="Democratic Technocracy of Sol"
+	adjective="Human"
+	authority="auth_democratic"
+	government="gov_rational_consensus"
+	planet_name="Earth Habitat"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_void_dweller_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"light_blue"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Monnobak"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_meritocracy"
+	}
+	origin="origin_void_dwellers"
+}
+"Barcalid Partnership"
+={
+	key="Barcalid Partnership"
+	ship_prefix="ISS"
+	species={
+		class="AQUATIC"
+		portrait="aqu11"
+		name="Barcalid"
+		plural="Barcalids"
+		adjective="Barcalan"
+		name_list="AQUATIC1"
+		gender=not_set
+		trait="trait_aquatic"
+		trait="trait_wasteful"
+		trait="trait_rapid_breeders"
+		trait="trait_charismatic"
+		trait="trait_unruly"
+	}
+	name="Barcalid Partnership"
+	adjective="Barcalan"
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name="Beck"
+	planet_class="pc_ocean"
+	system_name="Flioe"
+	initializer="ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"blue"
+			"dark_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Slapp'en Kelpmonger"
+		portrait="aqu11"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_corporate_anglers"
+		"civic_corporate_hedonism"
+	}
+	origin="origin_ocean_paradise"
 }
