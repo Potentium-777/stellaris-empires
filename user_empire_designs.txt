@@ -3572,9 +3572,9 @@
 	}
 	origin="origin_tree_of_life"
 }
-"Zenak Mechanic Biome"
+"Zenak Synthetic Biome"
 ={
-	key="Zenak Mechanic Biome"
+	key="Zenak Synthetic Biome"
 	ship_prefix="ISS"
 	species={
 		class="MACHINE"
@@ -3604,7 +3604,7 @@
 		trait="trait_wasteful"
 		trait="trait_intelligent"
 	}
-	name="Zenak Mechanic Biome"
+	name="Zenak Synthetic Biome"
 	adjective="Zenak"
 	authority="auth_machine_intelligence"
 	government="gov_machine_assimilator"
@@ -4067,4 +4067,73 @@
 		"civic_corporate_hedonism"
 	}
 	origin="origin_ocean_paradise"
+}
+"Thamesian Sacrosanct Empire of the Void Dragon"
+={
+	key="Thamesian Sacrosanct Empire of the Void Dragon"
+	ship_prefix="ISS"
+	species={
+		class="AQUATIC"
+		portrait="aqu10"
+		name="Thamesian"
+		plural="Thamesians"
+		adjective="Thamesian"
+		name_list="AQUATIC3"
+		gender=not_set
+		trait="trait_slow_breeders"
+		trait="trait_venerable"
+		trait="trait_talented"
+		trait="trait_solitary"
+	}
+	name="Thamesian Sacrosanct Empire of the Void Dragon"
+	adjective="Thamesian"
+	authority="auth_imperial"
+	government="gov_mortal_empire"
+	planet_name="Pautherwithisby"
+	planet_class="pc_ocean"
+	system_name="Tathy"
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"turquoise"
+			"dark_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Gerpilles"
+		portrait="aqu10"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Dragon's Chosen King"
+		heir_title="Dragon's Chosen Prince"
+		ruler_title_female="Dragon's Chosen Queen"
+		heir_title_female="Dragon's Chosen Princess"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_peaceful_traders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_pompous_purists"
+		"civic_death_cult"
+	}
+	origin="origin_here_be_dragons"
 }
