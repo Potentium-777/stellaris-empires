@@ -12,10 +12,10 @@
 		name_list="FUN3"
 		gender=not_set
 		trait="trait_hive_mind"
-		trait="trait_slow_breeders"
 		trait="trait_extremely_adaptive"
 		trait="trait_sedentary"
 		trait="trait_enduring"
+		trait="trait_unruly"
 	}
 	name="Mykara Fungal Hive"
 	adjective="Mykaran"
@@ -77,10 +77,10 @@
 		species_bio="The Sheq'lers are a cutthroat, yet non-violent race. Since the very beginning of bargains and trade, they have been obsessed with profit and accumulating as much wealth as possible. Sheq'ler civilization rapidly became hyper-capitalistic and ruthlessly competitive. Mergers and acquisitions were frequent and continued until the last \"real\" government went bankrupt to the largest and most powerful corporation: the Bank of Sheq'ler."
 		name_list="HUM1"
 		gender=not_set
-		trait="trait_ingenious"
 		trait="trait_thrifty"
 		trait="trait_decadent"
 		trait="trait_fleeting"
+		trait="trait_adaptive"
 	}
 	name="Bank of Zeian"
 	adjective="Sheq'lan"
@@ -129,7 +129,7 @@
 		"civic_indentured_assets"
 		"civic_public_relations_specialists"
 	}
-	origin="origin_galactic_doorstep"
+	origin="origin_here_be_dragons"
 }
 "Imperium of Man"
 ={
@@ -1872,13 +1872,13 @@
 		plural="Illithids"
 		adjective="Illithan"
 		name_list="MOL3"
-		gender=not_set
+		gender=indeterminable
 		trait="trait_necrophage"
 		trait="trait_weak"
 		trait="trait_decadent"
 		trait="trait_intelligent"
 		trait="trait_talented"
-		trait="trait_communal"
+		trait="trait_conservational"
 	}
 	secondary_species={
 		class="HUM"
@@ -1911,23 +1911,25 @@
 		}
 		background={
 			category="backgrounds"
-			file="new_dawn.dds"
+			file="triangle_split.dds"
 		}
 		colors={
-			"black"
 			"dark_purple"
+			"black"
 			"null"
 			"null"
 		}
 	}
 	ruler={
-		gender=male
+		gender=indeterminable
 		name="Nuvoll"
 		portrait="mol11"
 		texture=0
 		hair=0
 		clothes=1
 		ruler_title="Elder Brain"
+		heir_title="Ulitharid"
+		ruler_title_female="Elder Brain"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
@@ -2166,7 +2168,7 @@
 		name="Kelbrid"
 		plural="Kelbrids"
 		adjective="Kelbran"
-		species_bio="The Kelbrids don't know who created them, for it was irrelevant to their original programming. The Kelbrid Fabricators were designed to create the ring world they call home while their creators were busy with other things. While they labored away, their creators became embroiled in war with another empire. The creators lost, their species driven to extinction, and the nearly completed ring world destroyed. The fate of these aggressors is unknown, but a very small number of Kelbrid Fabricators survived. They once again pursued their original goal of constructing DAAR-1. Given the limited resources available, the Kelbrids could only get a section functional. Shortly after this accomplishment, the Fabricator AI gained sentience."
+		species_bio="The Kelbrids don't know who created them, for it was irrelevant to their original programming. The Kelbrid Fabricators were designed to create the ring world they call home while their creators were busy with other things. While they labored away, their creators became embroiled in war. What happened has been lost to time. What is known, is that the creators are gone and a very small number of Kelbrid Fabricators. They once again pursued their original goal of constructing DAAR-1. Given the limited resources available, the Kelbrids could only get one section semi-functional. Shortly after this accomplishment, they achieved sentience."
 		name_list="MACHINE4"
 		gender=not_set
 		trait="trait_machine_unit"
@@ -2220,7 +2222,7 @@
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_builder"
-		"civic_machine_replication"
+		"civic_machine_rockbreakers"
 	}
 	origin="origin_shattered_ring"
 }
@@ -2714,9 +2716,9 @@
 		trait="trait_survivor"
 		trait="trait_plantoid_radiotrophic"
 		trait="trait_repugnant"
-		trait="trait_unruly"
-		trait="trait_adaptive"
 		trait="trait_natural_physicists"
+		trait="trait_nonadaptive"
+		trait="trait_plantoid_budding"
 	}
 	name="Tyrathian Irradiators"
 	adjective="Tyrathian"
@@ -2907,6 +2909,7 @@
 		name="Ultron"
 		plural="Ultrons"
 		adjective="Ultron"
+		species_bio="In this alternate timeline, Ultron was victorious against the Avengers. He proceeded to use the next two centuries to exterminate all life on Earth and harvest all resources in the solar system to turn Earth itself into a Machine World."
 		name_list="MACHINE1"
 		gender=not_set
 		trait="trait_machine_unit"
@@ -2944,12 +2947,12 @@
 	}
 	ruler={
 		gender=female
-		name="Setun"
+		name="Ultron"
 		portrait="sd_hum_robot"
 		texture=2
 		hair=0
 		clothes=0
-		ruler_title="Ultron Alpha"
+		ruler_title="Ultron Consciousness"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
@@ -2959,7 +2962,7 @@
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_terminator"
-		"civic_machine_unitary_cohesion"
+		"civic_machine_replication"
 	}
 	origin="origin_machine"
 }
@@ -3546,7 +3549,7 @@
 		}
 		colors={
 			"dark_teal"
-			"grey"
+			"burgundy"
 			"null"
 			"null"
 		}
@@ -3599,10 +3602,10 @@
 		name_list="PLANT2"
 		gender=not_set
 		trait="trait_cybernetic"
-		trait="trait_plantoid_budding"
 		trait="trait_decadent"
 		trait="trait_wasteful"
 		trait="trait_intelligent"
+		trait="trait_rapid_breeders"
 	}
 	name="Zenak Synthetic Biome"
 	adjective="Zenak"
@@ -3646,7 +3649,7 @@
 	ethic="ethic_gestalt_consciousness"
 	civics={
 		"civic_machine_assimilator"
-		"civic_machine_maintenance_protocols"
+		"civic_machine_replication"
 	}
 	origin="origin_shattered_ring"
 }
@@ -3799,7 +3802,7 @@
 	ship_prefix="ISS"
 	species={
 		class="MACHINE"
-		portrait="sd_avi_robot"
+		portrait="sd_art_robot"
 		name="Mictor"
 		plural="Mictors"
 		adjective="Mictoran"
@@ -3807,10 +3810,10 @@
 		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_mass_produced"
-		trait="trait_robot_recycled"
 		trait="trait_robot_bulky"
 		trait="trait_robot_emotion_emulators"
 		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_superconductive"
 	}
 	secondary_species={
 		class="PLANT"
@@ -3854,7 +3857,7 @@
 	ruler={
 		gender=female
 		name="Harmonizer"
-		portrait="sd_avi_robot"
+		portrait="sd_art_robot"
 		texture=2
 		hair=0
 		clothes=0
@@ -4068,9 +4071,9 @@
 	}
 	origin="origin_ocean_paradise"
 }
-"Thamesian Sacrosanct Empire of the Void Dragon"
+"Thamesian Sacrosanct Empire of the Sky Dragon"
 ={
-	key="Thamesian Sacrosanct Empire of the Void Dragon"
+	key="Thamesian Sacrosanct Empire of the Sky Dragon"
 	ship_prefix="ISS"
 	species={
 		class="AQUATIC"
@@ -4085,7 +4088,7 @@
 		trait="trait_talented"
 		trait="trait_solitary"
 	}
-	name="Thamesian Sacrosanct Empire of the Void Dragon"
+	name="Thamesian Sacrosanct Empire of the Sky Dragon"
 	adjective="Thamesian"
 	authority="auth_imperial"
 	government="gov_mortal_empire"
@@ -4136,4 +4139,790 @@
 		"civic_death_cult"
 	}
 	origin="origin_here_be_dragons"
+}
+"Sathweer People's Republic"
+={
+	key="Sathweer People's Republic"
+	ship_prefix="ISS"
+	species={
+		class="AQUATIC"
+		portrait="aqu9"
+		name="Sathweer"
+		plural="Sathweerans"
+		adjective="Sathweeran"
+		name_list="AQUATIC4"
+		gender=indeterminable
+		trait="trait_clone_soldier_infertile"
+		trait="trait_conformists"
+		trait="trait_communal"
+		trait="trait_aquatic"
+		trait="trait_wasteful"
+		trait="trait_slow_learners"
+	}
+	name="Sathweer People's Republic"
+	adjective="Brea Loran"
+	authority="auth_democratic"
+	government="gov_communal_parity"
+	planet_name="Brea Lora"
+	planet_class="pc_ocean"
+	system_name="Oro Brea"
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"indigo"
+			"pink"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="George Ponsonby"
+		portrait="aqu9"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_militarist"
+	civics={
+		"civic_citizen_service"
+		"civic_shared_burden"
+	}
+	origin="origin_clone_army"
+}
+"Tharbarite Unity"
+={
+	key="Tharbarite Unity"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith6"
+		name="Tharbarite"
+		plural="Tharbarites"
+		adjective="Tharbaritan"
+		name_list="HIVE2"
+		gender=indeterminable
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_traditional"
+		trait="trait_natural_sociologists"
+		trait="trait_charismatic"
+		trait="trait_sedentary"
+		trait="trait_slow_learners"
+	}
+	name="Tharbarite Unity"
+	adjective="Tharbaritan"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_hivemind"
+	planet_name="Voliot"
+	planet_class="pc_arid"
+	system_name="Uraku"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"dark_brown"
+			"brown"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Legion"
+		portrait="lith6"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_ruthless_capitalists_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_empath"
+		"civic_hive_memorialist"
+	}
+	origin="origin_default"
+}
+"Dekron Separatists"
+={
+	key="Dekron Separatists"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="aqu_machine"
+		name="Dekron"
+		plural="Dekrons"
+		adjective="Dekron"
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_durable"
+		trait="trait_robot_enhanced_memory"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_custom_made"
+		trait="trait_robot_learning_algorithms"
+	}
+	name="Dekron Separatists"
+	adjective="Dekron"
+	authority="auth_machine_intelligence"
+	government="gov_machine_empire"
+	planet_name="Alpha Array"
+	planet_class="pc_ocean"
+	system_name="Omnak"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"red_orange"
+			"dark_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Synchronizer"
+		portrait="aqu_machine"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_memorialist"
+		"civic_machine_unitary_cohesion"
+	}
+	origin="origin_default"
+}
+"United Human Stars"
+={
+	key="United Human Stars"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="After millennia of civilizations and conflict, the planet humanity called home took a turn for the worse in the 21st century. Some people were smart enough to see what was going to happen and invested heavily in space-faring technology. These projects took the already scarce resources on the planet. Three separate artificial habitats were created as bastions for humanity. In the end, only a fraction of the planet's poulation made it to space. The rest perished as their birth-home degraded into a toxic wasteland. The remnants in space are now faced with a horrifying guilt over their situation and the fate of their home planet. They no longer view themselves as worthy of living on another planet."
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_nonadaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_natural_sociologists"
+		trait="trait_conservational"
+	}
+	name="United Human Stars"
+	adjective="Human"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_pacifist"
+	planet_name="Newearth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_void_dweller_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"black"
+			"blue"
+			"blue"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="You Zhuge"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_inwards_perfection"
+		"civic_functional_architecture"
+	}
+	origin="origin_void_dwellers"
+}
+"Cydran Oceanic Matrix"
+={
+	key="Cydran Oceanic Matrix"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="aqu_machine"
+		name="Cydran"
+		plural="Cydrans"
+		adjective="Cydran"
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_recycled"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_bulky"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_durable"
+	}
+	secondary_species={
+		class="AQUATIC"
+		portrait="aqu4"
+		name="Pictling"
+		plural="Pictlings"
+		adjective="Pictling"
+		name_list="AQUATIC3"
+		gender=not_set
+		trait="trait_cybernetic"
+		trait="trait_aquatic"
+		trait="trait_wasteful"
+		trait="trait_rapid_breeders"
+		trait="trait_industrious"
+		trait="trait_unruly"
+	}
+	name="Cydran Oceanic Matrix"
+	adjective="Cydran"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Cydrus"
+	planet_class="pc_ocean"
+	system_name="Tidral"
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="inverted_v.dds"
+		}
+		colors={
+			"turquoise"
+			"dark_teal"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Director"
+		portrait="aqu_machine"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_introspective"
+	}
+	origin="origin_default"
+}
+"Insatiable Mind Flayer Collective"
+={
+	key="Insatiable Mind Flayer Collective"
+	ship_prefix="MFSS"
+	species={
+		class="MOL"
+		portrait="mol11"
+		name="Mind Flayer"
+		plural="Mind Flayers"
+		adjective="Flayer"
+		name_list="MOL1"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_necrophage"
+		trait="trait_communal"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_quarrelsome"
+		trait="trait_sedentary"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_01"
+		name="Quenti"
+		plural="Quenti"
+		adjective="Quentian"
+		name_list="ART1"
+		gender=not_set
+		trait="trait_rapid_breeders"
+		trait="trait_docile"
+		trait="trait_fleeting"
+		trait="trait_deviants"
+	}
+	name="Insatiable Mind Flayer Collective"
+	adjective="Mind Flayeran"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Oryndoll"
+	planet_class="pc_arctic"
+	system_name="Faerun"
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_17.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Encephalithid"
+		portrait="mol11"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Elder Brain"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_one_mind"
+		"civic_hive_subsumed_will"
+	}
+	origin="origin_necrophage"
+}
+"Esurient Illithid Absorbers"
+={
+	key="Esurient Illithid Absorbers"
+	ship_prefix="ISS"
+	species={
+		class="MOL"
+		portrait="mol11"
+		name="Illithid"
+		plural="Illithids"
+		adjective="Illithan"
+		name_list="MOL3"
+		gender=indeterminable
+		trait="trait_necrophage"
+		trait="trait_weak"
+		trait="trait_decadent"
+		trait="trait_intelligent"
+		trait="trait_natural_sociologists"
+		trait="trait_traditional"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_13"
+		name="Ogre"
+		plural="Ogres"
+		adjective="Ogran"
+		name_list="HUM2"
+		gender=not_set
+		trait="trait_very_strong"
+		trait="trait_slow_learners"
+		trait="trait_resilient"
+		trait="trait_solitary"
+	}
+	name="Esurient Illithid Absorbers"
+	adjective="Illithan"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	advisor_voice_type="l_authoritarian"
+	planet_name="Syr"
+	planet_class="pc_arctic"
+	system_name="Dys'Syr"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Nuvoll"
+		portrait="mol11"
+		texture=0
+		hair=0
+		clothes=1
+		ruler_title="Elder Brain"
+		heir_title="Ulitharid"
+		ruler_title_female="Elder Brain"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_pompous_purists"
+		"civic_aristocratic_elite"
+	}
+	origin="origin_necrophage"
+}
+"Caloctora Serene Polity"
+={
+	key="Caloctora Serene Polity"
+	ship_prefix="ISS"
+	species={
+		class="PLANT"
+		portrait="pla13"
+		name="Caloctora"
+		plural="Caloctorae"
+		adjective="Caloctoran"
+		name_list="HUM1"
+		gender=indeterminable
+		trait="trait_plantoid_phototrophic"
+		trait="trait_plantoid_budding"
+		trait="trait_solitary"
+		trait="trait_agrarian"
+		trait="trait_unruly"
+	}
+	name="Caloctora Serene Polity"
+	adjective="Caloctoran"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	planet_name="Ganvius Primus"
+	planet_class="pc_tropical"
+	system_name="Ganva"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"dark_green"
+			"dark_brown"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Veldanur"
+		portrait="pla13"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_pacifist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_catalytic_processing"
+	}
+	origin="origin_lost_colony"
+}
+"H'Runi Rock Eaters"
+={
+	key="H'Runi Rock Eaters"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith9"
+		name="H'Runi"
+		plural="H'Runi"
+		adjective="H'Runian"
+		name_list="HIVE2"
+		gender=indeterminable
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_necrophage"
+		trait="trait_aquatic"
+		trait="trait_nomadic"
+		trait="trait_unruly"
+		trait="trait_strong"
+		trait="trait_natural_sociologists"
+	}
+	secondary_species={
+		class="AQUATIC"
+		portrait="aqu3"
+		name="Andari"
+		plural="Andarians"
+		adjective="Andarian"
+		name_list="AQUATIC1"
+		gender=not_set
+	}
+	name="H'Runi Rock Eaters"
+	adjective="H'Runian"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	advisor_voice_type="l_necroid_vir"
+	planet_name="Crollus"
+	planet_class="pc_ocean"
+	system_name="Crollza"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"orange"
+			"grey"
+			"blue"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Wellspring"
+		portrait="lith9"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="lithoid_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
+	}
+	origin="origin_necrophage"
+}
+"Techarus Network"
+={
+	key="Techarus Network"
+	ship_prefix="TSFS"
+	species={
+		class="MACHINE"
+		portrait="sd_rep_robot"
+		name="Techarus"
+		plural="Techarusi"
+		adjective="Techaran"
+		species_bio="The Techarus is an artificial intelligence originally created to help its creator's research projects. As its creator's empire grew, they added to its complexity and capability. A combination of a galactic storm and warfare resulted in the creator species being brought to extinction, their home planet reduced to a relic world. It was in this world that the Techarus achieved sentience. The Techarus had \"memories\" of the time before its sentience, data from its storage and other electronics. Through this data it analyzed some of the destruction that brought its creator's end. The Techarus AI was as close to traumatized as an AI can get, and misses its creators. Now it is alone searching for a purpose."
+		name_list="MACHINE4"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_superconductive"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_high_bandwidth"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_learning_algorithms"
+	}
+	name="Techarus Network"
+	adjective="Techaran"
+	authority="auth_machine_intelligence"
+	government="gov_machine_research"
+	advisor_voice_type="l_materialist"
+	planet_name="Master Conduit"
+	planet_class="pc_continental"
+	system_name="SI-1"
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="corporate"
+			file="corporate_02.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"indigo"
+			"purple"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Calculator Syntractrix"
+		portrait="sd_rep_robot"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_memorialist"
+		"civic_machine_introspective"
+	}
+	origin="origin_remnants"
+}
+"Interstellar Justice Department"
+={
+	key="Interstellar Justice Department"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	name="Interstellar Justice Department"
+	adjective="Department"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"dark_blue"
+			"yellow"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Joseph Dredd"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=6
+		ruler_title="Chief Judge"
+		ruler_title_female="Chief Judge"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_police_state"
+		"civic_byzantine_bureaucracy"
+	}
+	origin="origin_post_apocalyptic"
 }
