@@ -2715,10 +2715,9 @@
 		gender=not_set
 		trait="trait_survivor"
 		trait="trait_plantoid_radiotrophic"
-		trait="trait_repugnant"
 		trait="trait_natural_physicists"
-		trait="trait_nonadaptive"
-		trait="trait_plantoid_budding"
+		trait="trait_slow_breeders"
+		trait="trait_enduring"
 	}
 	name="Tyrathian Irradiators"
 	adjective="Tyrathian"
@@ -2754,6 +2753,7 @@
 		hair=0
 		clothes=0
 		ruler_title="Glowing One"
+		ruler_title_female="Glowing One"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
@@ -3832,6 +3832,7 @@
 	adjective="Mictoran"
 	authority="auth_machine_intelligence"
 	government="gov_machine_servitor"
+	advisor_voice_type="l_xenophile"
 	planet_name="Tronz"
 	planet_class="pc_continental"
 	system_name="Tronz Karas"
@@ -4925,4 +4926,1014 @@
 		"civic_byzantine_bureaucracy"
 	}
 	origin="origin_post_apocalyptic"
+}
+"Mireesh Multitude"
+={
+	key="Mireesh Multitude"
+	ship_prefix="CSS"
+	species={
+		class="FUN"
+		portrait="fun16"
+		name="Mireesh"
+		plural="Mireeshi"
+		adjective="Mireesh"
+		species_bio="The Mireesh are an aggressive form of fungus that arrived on their home planet 1000 years ago. Individual spores are unremarkable, but as they increase in numbers, they form a neural network. They mutate at an extreme rate to make the most of their surroundings. After landing from space, the fungus began assimilating itself into the native life. A pre-sapient species instinctively feared this fungus and tried to avoid or destroy it. Given its adaptivity, it was inevitable that the Mireesh would infest the pre-sapients' food. Taking over the pre-sapients caused the Mireesh to exponentially increase in intelligence and they were able to assimilate all life on the planet."
+		name_list="HIVE"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_agrarian"
+		trait="trait_rapid_breeders"
+		trait="trait_plantoid_phototrophic"
+		trait="trait_nonadaptive"
+		trait="trait_slow_learners"
+	}
+	name="Mireesh Multitude"
+	adjective="Mireesh"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_hivemind"
+	planet_name="Ganlarevia"
+	planet_class="pc_continental"
+	system_name="Ganlargo"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Consciousness"
+		portrait="fun16"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="dlc_hive3_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	origin="origin_default"
+}
+"Minnerian Mutual Benefactors"
+={
+	key="Minnerian Mutual Benefactors"
+	ship_prefix="ISS"
+	species={
+		class="AQUATIC"
+		portrait="aqu7"
+		name="Minnerian"
+		plural="Minnerians"
+		adjective="Minnerian"
+		name_list="HIVE2"
+		gender=indeterminable
+		trait="trait_hive_mind"
+		trait="trait_aquatic"
+		trait="trait_communal"
+		trait="trait_sedentary"
+		trait="trait_charismatic"
+		trait="trait_slow_learners"
+	}
+	name="Minnerian Mutual Benefactors"
+	adjective="Minnerian"
+	authority="auth_hive_mind"
+	government=""
+	advisor_voice_type="l_the_diplomat"
+	planet_name="Tarcadal"
+	planet_class="pc_continental"
+	system_name="Sidona"
+	initializer="ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors={
+			"teal"
+			"green"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Source"
+		portrait="aqu7"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_empath"
+	}
+	origin="origin_ocean_paradise"
+}
+"Brotherhood of Steel"
+={
+	key="Brotherhood of Steel"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN3"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_intelligent"
+		trait="trait_natural_engineers"
+		trait="trait_traditional"
+		trait="trait_solitary"
+		trait="trait_fleeting"
+	}
+	name="Brotherhood of Steel"
+	adjective="Brotherhood"
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	advisor_voice_type="l_the_soldier"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"dark_brown"
+			"beige"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Roger Maxson"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=5
+		ruler_title="High Elder"
+		ruler_title_female="High Elder"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_meritocracy"
+		"civic_functional_architecture"
+	}
+	origin="origin_post_apocalyptic"
+}
+"New Earth Republic"
+={
+	key="New Earth Republic"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_industrious"
+		trait="trait_communal"
+		trait="trait_deviants"
+		trait="trait_adaptive"
+		trait="trait_unruly"
+	}
+	name="New Earth Republic"
+	adjective="Republic"
+	authority="auth_democratic"
+	government="gov_military_commissariat"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors={
+			"red"
+			"beige"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Aradesh"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=1
+		ruler_title="President"
+		ruler_title_female="President"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_metalheads_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_merchant_guilds"
+	}
+	origin="origin_post_apocalyptic"
+}
+"Enclave"
+={
+	key="Enclave"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_traditional"
+		trait="trait_intelligent"
+		trait="trait_decadent"
+	}
+	name="Enclave"
+	adjective="Enclave"
+	authority="auth_democratic"
+	government="gov_purity_assembly"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"dark_blue"
+			"dark_grey"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dick Richardson"
+		portrait="human_male_03"
+		texture=0
+		hair=11
+		clothes=6
+		ruler_title="Mr. President"
+		ruler_title_female="Ms. President"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_shadow_council"
+	}
+	origin="origin_post_apocalyptic"
+}
+"Commonwealth Minutemen"
+={
+	key="Commonwealth Minutemen"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_communal"
+		trait="trait_charismatic"
+		trait="trait_slow_learners"
+	}
+	name="Commonwealth Minutemen"
+	adjective="Minutemen"
+	authority="auth_democratic"
+	government="gov_citizen_republic"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_12.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_blue"
+			"grey"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Preston Garvey"
+		portrait="human_male_05"
+		texture=0
+		hair=6
+		clothes=4
+		ruler_title="President-General"
+		ruler_title_female="President-General"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_ruthless_capitalists_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_free_haven"
+		"civic_citizen_service"
+	}
+	origin="origin_post_apocalyptic"
+}
+"The Institute"
+={
+	key="The Institute"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_intelligent"
+		trait="trait_natural_sociologists"
+		trait="trait_solitary"
+	}
+	name="The Institute"
+	adjective="Institute"
+	authority="auth_oligarchic"
+	government="gov_science_directorate"
+	advisor_voice_type="l_the_technocrat"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"beige"
+			"light_blue"
+			"orange"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Shaun"
+		portrait="human_male_01"
+		texture=0
+		hair=27
+		clothes=3
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_shadow_council"
+	}
+	origin="origin_post_apocalyptic"
+}
+"Caesar's Legion"
+={
+	key="Caesar's Legion"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_survivor"
+		trait="trait_rapid_breeders"
+		trait="trait_traditional"
+		trait="trait_deviants"
+		trait="trait_slow_learners"
+		trait="trait_strong"
+	}
+	name="Caesar's Legion"
+	adjective="Legion"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	advisor_voice_type="l_xenophobe"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"red_orange"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Caesar"
+		portrait="human_male_01"
+		texture=0
+		hair=1
+		clothes=5
+		ruler_title="Emperor"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_slaver_guilds"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_post_apocalyptic"
+}
+"RobCo Industries"
+={
+	key="RobCo Industries"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_thrifty"
+		trait="trait_intelligent"
+		trait="trait_natural_engineers"
+		trait="trait_deviants"
+		trait="trait_slow_breeders"
+	}
+	name="RobCo Industries"
+	adjective="RobCo"
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name="Earth"
+	planet_class="pc_desert"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal_stripe.dds"
+		}
+		colors={
+			"black"
+			"green"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Robert House"
+		portrait="human_male_01"
+		texture=0
+		hair=36
+		clothes=6
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	civics={
+		"civic_corporate_hedonism"
+		"civic_private_prospectors"
+	}
+	origin="origin_mechanists"
+}
+"Adeex People's Republic"
+={
+	key="Adeex People's Republic"
+	ship_prefix="ISS"
+	species={
+		class="REP"
+		portrait="rep6"
+		name="Adeex"
+		plural="Adeexi"
+		adjective="Adeex"
+		species_bio="The Adeexi are the closest thing to a hive mind without actually being one. This wasn't always the case. Their early and long-forgotten history was filled with almost perpetual violence. The toll on their home planet was too great, and it was almost too late for the Adeexi to do anything to save themselves. Those few who survived built complex artificial habitats. The most aggressive Adeexi died off while the more peaceful and communal fled to space. In these new artificial worlds, a new way of life, one which stood against everything that caused the Adeexi home planet to perish. Adeex history may be largely forgotten, but their current lifestyle proves they haven't forgotten the lessons they needed to learn."
+		name_list="HUM4"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_communal"
+		trait="trait_conservational"
+		trait="trait_nonadaptive"
+		trait="trait_natural_engineers"
+		trait="trait_strong"
+	}
+	name="Adeex People's Republic"
+	adjective="Xanian"
+	authority="auth_democratic"
+	government="gov_communal_parity"
+	planet_name="Xania"
+	planet_class="pc_arid"
+	system_name="Xani Nadih"
+	initializer="void_dweller_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"purple"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Yulk up Fol"
+		portrait="rep6"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_shared_burden"
+		"civic_meritocracy"
+	}
+	origin="origin_void_dwellers"
+}
+"Bebaki Syndicate"
+={
+	key="Bebaki Syndicate"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_08"
+		name="Bebaki"
+		plural="Bebaki"
+		adjective="Bebakian"
+		name_list="HUM3"
+		gender=not_set
+		trait="trait_deviants"
+		trait="trait_unruly"
+		trait="trait_strong"
+		trait="trait_adaptive"
+		trait="trait_rapid_breeders"
+	}
+	name="Bebaki Syndicate"
+	adjective="Bebakian"
+	authority="auth_corporate"
+	government="gov_criminal_syndicate"
+	planet_name="Panasu Prime"
+	planet_class="pc_alpine"
+	system_name="Panasu"
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"burgundy"
+			"brown"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Pash na-Febor"
+		portrait="humanoid_hp_08"
+		texture=0
+		hair=0
+		clothes=10
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_peaceful_traders_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_criminal_heritage"
+		"civic_ruthless_competition"
+	}
+	origin="origin_shoulders_of_giants"
+}
+"United Collective of Humanity"
+={
+	key="United Collective of Humanity"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="In this alternate history, humanity continued to be at war with itself for much of the 21st century. In the 22nd century, a civilization developed a mind-linking organism, hoping to improve their warfare by allowing all their soldiers to know everything. This organism grew out of control and eventually assimilated all of humanity, converting the once individualistic species into a hive mind."
+		name_list="HIVE"
+		gender=not_set
+		trait="trait_hive_mind"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_fleeting"
+	}
+	name="United Collective of Humanity"
+	adjective="Collective"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_blue"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Consciousness"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_migrating_flock_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_pooled_knowledge"
+		"civic_hive_divided_attention"
+	}
+	origin="origin_default"
+}
+"Maloqui Multistellar"
+={
+	key="Maloqui Multistellar"
+	ship_prefix="ISS"
+	species={
+		class="NECROID"
+		portrait="nec2"
+		name="Maloqui"
+		plural="Maloqui"
+		adjective="Maloquian"
+		species_bio="Millennia ago, the Maloqui had a massive empire spanning across many planets and star systems. It all collapsed when a plague infected their people. Due to their great reliance on trade, it spread at a rapid pace. By the time Maloqui leaders finally restricted trade, the plague had already spread to all their worlds. The trade restrictions destroyed planetary economies. Over 98% of the Maloqui race perished. In a last, desperate bid for survival, a prominent company set up artificial habitats and high tech medical suits to keep its employees and a small handful of refugees safe. Over time, knowledge of how the suits function was lost and Maloqui Multistellar became worshipped for saving their race."
+		name_list="NECROID2"
+		gender=not_set
+		trait="trait_void_dweller_1"
+		trait="trait_thrifty"
+		trait="trait_conservational"
+		trait="trait_intelligent"
+		trait="trait_fleeting"
+		trait="trait_unruly"
+	}
+	name="Maloqui Multistellar"
+	adjective="Maloquian"
+	authority="auth_corporate"
+	government="gov_megachurch"
+	advisor_voice_type="l_the_technocrat"
+	planet_name="Bis'ashet"
+	planet_class="pc_tundra"
+	system_name="Netteth"
+	initializer="void_dweller_system"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="necroid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"grey"
+			"turquoise"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Octl uxi Xauct"
+		portrait="nec2"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_permanent_employment"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_void_dwellers"
+}
+"Iribot Incorporators"
+={
+	key="Iribot Incorporators"
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="nec_machine"
+		name="Iribot"
+		plural="Iribots"
+		adjective="Iribot"
+		name_list="MACHINE2"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_efficient_processors"
+		trait="trait_robot_bulky"
+		trait="trait_robot_luxurious"
+	}
+	secondary_species={
+		class="PLANT"
+		portrait="pla13"
+		name="Sidimatus"
+		plural="Sidimati"
+		adjective="Sidimatan"
+		name_list="PLANT4"
+		gender=not_set
+		trait="trait_cybernetic"
+		trait="trait_weak"
+		trait="trait_intelligent"
+		trait="trait_natural_engineers"
+		trait="trait_enduring"
+		trait="trait_sedentary"
+	}
+	name="Iribot Incorporators"
+	adjective="Iribot"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Techus"
+	planet_class="pc_desert"
+	system_name="Techar-Ubas"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_15.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal.dds"
+		}
+		colors={
+			"brown"
+			"turquoise"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Combinatrix"
+		portrait="nec_machine"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_replication"
+	}
+	origin="origin_default"
+}
+"Rhonzar Raveners"
+={
+	key="Rhonzar Raveners"
+	ship_prefix="ISS"
+	species={
+		class="LITHOID"
+		portrait="lith14"
+		name="Rhonzar"
+		plural="Rhonzari"
+		adjective="Rhonzaran"
+		name_list="LITHOID1"
+		gender=indeterminable
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_industrious"
+		trait="trait_nomadic"
+		trait="trait_aquatic"
+		trait="trait_slow_learners"
+		trait="trait_quarrelsome"
+	}
+	name="Rhonzar Raveners"
+	adjective="Rhonzaran"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Shapara"
+	planet_class="pc_ocean"
+	system_name="Shap"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"indigo"
+			"grey"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=indeterminable
+		name="Hatekk Okk Trok'Okt"
+		portrait="lith14"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="Queen"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="lithoid_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
+	}
+	origin="origin_lithoid"
 }
