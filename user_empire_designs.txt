@@ -5885,10 +5885,10 @@
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_industrious"
-		trait="trait_nomadic"
 		trait="trait_aquatic"
 		trait="trait_slow_learners"
-		trait="trait_quarrelsome"
+		trait="trait_communal"
+		trait="trait_fleeting_lithoid"
 	}
 	name="Rhonzar Raveners"
 	adjective="Rhonzaran"
