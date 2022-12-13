@@ -10896,11 +10896,11 @@
 		}
 		name_list="MAM2"
 		gender=not_set
-		trait="trait_conformists"
 		trait="trait_charismatic"
 		trait="trait_slow_learners"
 		trait="trait_unruly"
 		trait="trait_strong"
+		trait="trait_thrifty"
 	}
 	name={
 		key="format.subversive_cult.1"
@@ -10966,11 +10966,11 @@
 		}
 		background={
 			category="backgrounds"
-			file="flag_BG_10.dds"
+			file="flag_BG_29.dds"
 		}
 		colors={
-			"grey"
-			"indigo"
+			"shadow_blue"
+			"hard_steel"
 			"black"
 			"null"
 		}
@@ -11008,7 +11008,8 @@
 	ignore_portrait_duplication=no
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=yes
-	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
 	civics={
 		"civic_criminal_heritage"
@@ -12678,7 +12679,7 @@
  
 			}
 		}
-		species_bio="In this alternate timeline, Earth was attacked by an unknown being that came to be known as The Toxic God. Large swaths of the planet was rendered barren and the majority of biodiversity was wiped out. In the immediate aftermath, most of humanity perished. Mutation was widespread. As the environment stabilized, the rate of mutation decreased and a single subspecies emerged, stable enough to inherit the remains of human civilization. A new theocracy emerged, worshipping the entity that devastated Earth. This theocracy proved able to unite the planet and began a long-term vision to find The Toxic God. What this new humanity will do after finding it, remains to be seen."
+		species_bio="In this alternate timeline, Earth was attacked by an unknown being that came to be known as The Toxic God. Large swaths of the planet were rendered barren and the majority of biodiversity was wiped out. In the immediate aftermath, most of humanity perished. Mutation was widespread. As the environment stabilized, the rate of mutation decreased and a single subspecies emerged, stable enough to inherit the remains of human civilization. A new theocracy emerged, worshipping the entity that devastated Earth. This theocracy proved able to unite the planet and began a long-term vision to find The Toxic God. What this new humanity will do after finding it, remains to be seen."
 		name_list="HUMAN1"
 		gender=male
 		trait="trait_fleeting"
@@ -14221,4 +14222,227 @@
 		"civic_hive_devouring_swarm"
 	}
 	origin="origin_necrophage"
+}
+"The Destitute"={
+	key="The Destitute"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		portrait="electroid_7"
+		species_name={
+			key="Destitute"
+			literal=yes
+		}
+		species_plural={
+			key="Destitutes"
+			literal=yes
+		}
+		species_adjective={
+			key="%ADJECTIVE%"
+			variables={
+				{
+					key="adjective"
+					value={
+						key="Destitute"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Among the species of the Unbidden, the Destitute were always the weakest. This was due to their hunger, which was more intense and harder to satiate than that of their bretheren. Now the Destitute have shirked away from their empire, seeking to make a name for themselves."
+		name_list="NECROID4"
+		gender=not_set
+		trait="trait_natural_physicists"
+		trait="trait_ingenious"
+		trait="trait_unruly"
+		trait="trait_nomadic"
+	}
+	name={
+		key="The Destitute"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Destitute"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_star_empire"
+	planet_name={
+		key="The Void"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Nihilus"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="elec_exd_01"
+	city_graphical_culture="elec_exd_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"black"
+			"teal"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name={
+			full_names={
+				key="NECROID4_CHR_Rhosen"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="electroid_7"
+		texture=0
+		attachment=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	origin="origin_default"
+}
+"Ofoxxeran Sect"={
+	key="Ofoxxeran Sect"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		class="TOX"
+		portrait="tox5"
+		species_name={
+			key="SPEC_ofoxxer"
+		}
+		species_plural={
+			key="SPEC_ofoxxer_pl"
+		}
+		species_adjective={
+			key="%ADJECTIVE%"
+			variables={
+				{
+					key="adjective"
+					value={
+						key="SPEC_ofoxxer"
+					}
+				}
+ 
+			}
+		}
+		name_list="REP1"
+		gender=not_set
+		trait="trait_charismatic"
+		trait="trait_thrifty"
+		trait="trait_unruly"
+		trait="trait_traditional"
+		trait="trait_slow_learners"
+	}
+	name={
+		key="%ADJECTIVE%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="SPEC_ofoxxer"
+				}
+			}
+ {
+				key="1"
+				value={
+					key="Sect"
+				}
+			}
+ 
+		}
+	}
+	adjective={
+		key="%ADJECTIVE%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="SPEC_ofoxxer"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_subversive_cult"
+	planet_name={
+		key="SPEC_kaarelian_planet"
+	}
+	planet_class="pc_tundra"
+	system_name={
+		key="SPEC_kaarelian_system"
+	}
+	initializer=""
+	graphical_culture="toxoid_01"
+	city_graphical_culture="toxoid_01"
+	empire_flag={
+		icon={
+			category="toxoid"
+			file="toxoid_09.dds"
+		}
+		background={
+			category="backgrounds"
+			file="flag_BG_19.dds"
+		}
+		colors={
+			"burgundy"
+			"orange"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="REP1_CHR_HaskEkalim"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="tox5_m"
+		texture=0
+		attachment=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="toxoids_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_criminal_heritage"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_common_ground"
 }
