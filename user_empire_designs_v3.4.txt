@@ -11949,8 +11949,8 @@
 	adjective={
 		key="Tyrathian"
 	}
-	authority="auth_oligarchic"
-	government="gov_science_directorate"
+	authority="auth_corporate"
+	government="gov_criminal_syndicate"
 	advisor_voice_type="l_spiritualist"
 	planet_name={
 		key="Jibbasa"
@@ -12003,11 +12003,11 @@
 	ignore_portrait_duplication=no
 	room="gilded_room"
 	spawn_enabled=yes
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_materialist"
 	civics={
-		"civic_relentless_industrialists"
-		"civic_technocracy"
+		"civic_criminal_heritage"
+		"civic_corporate_relentless_industrialists"
 	}
 	origin="origin_post_apocalyptic"
 }
@@ -14990,4 +14990,109 @@
 		"civic_pleasure_seekers"
 	}
 	origin="origin_necrophage"
+}
+"Kithrian Killers"={
+	key="Kithrian Killers"
+	ship_prefix={
+		key="ISS"
+	}
+	species={
+		class="FUN"
+		portrait="fun15"
+		species_name={
+			key="SPEC_Kithri"
+		}
+		species_plural={
+			key="SPEC_Kithri_pl"
+		}
+		species_adjective={
+			key="%ADJECTIVE%"
+			variables={
+				{
+					key="adjective"
+					value={
+						key="SPEC_Kithri"
+					}
+				}
+ 
+			}
+		}
+		name_list="FUN1"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_plantoid_radiotrophic"
+		trait="trait_unruly"
+		trait="trait_plantoid_budding"
+		trait="trait_deviants"
+		trait="trait_strong"
+	}
+	name={
+		key="Kithrian Killers"
+		literal=yes
+	}
+	adjective={
+		key="%ADJECTIVE%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="SPEC_Kithri"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_purity_order"
+	planet_name={
+		key="SPEC_Udkavongo_planet"
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="SPEC_Udkavongo_system"
+	}
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_21.dds"
+		}
+		background={
+			category="backgrounds"
+			file="flag_BG_56.dds"
+		}
+		colors={
+			"dark_teal"
+			"grey"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="FUN1_CHR_Humiigol"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="fun15"
+		texture=0
+		attachment=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_purifier_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_post_apocalyptic"
 }
