@@ -9602,7 +9602,7 @@
 			key="B.E.E.S."
 		}
 		species_bio="The Biology-Emulated Eusocial Synthetics are a race of advanced robots. They started as a single being, a \"Queen\" who emerged from a metal tube, barely sentient, but with the knowledge of how to build more of itself. As they multiplied, they built their civilization on the ruins of an extinct species. Among these ruins, they found the acronym that they would assume as their identity. Now they are numerous and ready to expand beyond their home planet."
-		name_list="HIVE"
+		name_list="MACHINE1"
 		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_mass_produced"
@@ -17816,6 +17816,7 @@
 		texture=0
 		attachment=0
 		clothes=0
+		trait="leader_trait_spycraft"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -18680,8 +18681,8 @@
 		trait="trait_invasive"
 		trait="trait_slow_learners"
 		trait="trait_unruly"
-		trait="trait_sedentary"
 		trait="trait_wasteful"
+		trait="trait_deviants"
 	}
 	name=
 	{
@@ -20368,4 +20369,977 @@
 		"civic_machine_zero_waste_protocols"
 	}
 	origin="origin_void_machines"
+}
+"Divine Keerim Kingdom"=
+{
+	key="Divine Keerim Kingdom"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="AVI"
+		portrait="cyb5"
+		species_name=
+		{
+			key="SPEC_Keerim"
+		}
+		species_plural=
+		{
+			key="SPEC_Keerim_pl"
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="SPEC_Keerim"
+					}
+				}
+ 
+			}
+		}
+		name_list="AVI1"
+		gender=not_set
+		trait="trait_intelligent"
+		trait="trait_docile"
+		trait="trait_weak"
+		trait="trait_sedentary"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Divine"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="SPEC_Keerim"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Kingdom"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="SPEC_Keerim"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_pacifist"
+	planet_name=
+	{
+		key="SPEC_Sintomoroi_planet"
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="SPEC_Sintomoroi_system"
+	}
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_6.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors=
+		{
+			"turquoise"
+			"brown"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="AVI1_CHR_YRidaak"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="cyb5"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_inwards_perfection"
+		"civic_environmental_architects"
+	}
+	origin="origin_cybernetic_creed"
+}
+"Steccashian Augmented Grand Duchy"=
+{
+	key="Steccashian Augmented Grand Duchy"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="REP"
+		portrait="cyb11"
+		species_name=
+		{
+			key="SPEC_Steccashi"
+		}
+		species_plural=
+		{
+			key="SPEC_Steccashi_pl"
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="SPEC_Steccashi"
+					}
+				}
+ 
+			}
+		}
+		name_list="REP2"
+		gender=not_set
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_very_strong"
+		trait="trait_unruly"
+		trait="trait_sedentary"
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="SPEC_Steccashi"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="%ADJ%"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="Augmented"
+								variables=
+								{
+									
+									{
+										key="1"
+										value=
+										{
+											key="GrandDuchy"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="SPEC_Steccashi"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_purity_assembly"
+	planet_name=
+	{
+		key="SPEC_RakThalakNak_planet"
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="SPEC_RakThalakNak_system"
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_2.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors=
+		{
+			"khaki_brown"
+			"black"
+			"blue"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="REP2_CHR_Morax"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="cyb11"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_fleet_organizer"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_fanatic_purifiers"
+		"civic_scavengers"
+	}
+	origin="origin_cybernetic_creed"
+}
+"Refined Valdarian Principality"=
+{
+	key="Refined Valdarian Principality"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="MAM"
+		portrait="cyb7"
+		species_name=
+		{
+			key="SPEC_Valdari"
+		}
+		species_plural=
+		{
+			key="SPEC_Valdari_pl"
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="SPEC_Valdari"
+					}
+				}
+ 
+			}
+		}
+		name_list="MAM1"
+		gender=not_set
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_quick_learners"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Refined"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="SPEC_Valdari"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Principality"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="SPEC_Valdari"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	planet_name=
+	{
+		key="SPEC_Gagassi_planet"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="SPEC_Gagassi_system"
+	}
+	initializer=""
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="ornate"
+			file="flag_ornate_16.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_39.dds"
+		}
+		colors=
+		{
+			"pink"
+			"blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MAM1_CHR_JKhanna"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MAM1_CHR_Sakir"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="cyb7"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_spiritualist"
+	civics=
+	{
+		"civic_crafters"
+		"civic_ascensionists"
+	}
+	origin="origin_cybernetic_creed"
+}
+"Werhenian Augmented Workers"=
+{
+	key="Werhenian Augmented Workers"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="MAM"
+		portrait="cyb2"
+		species_name=
+		{
+			key="Werheni"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Werheni"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Werhenian"
+			literal=yes
+		}
+		name_list="MAM3"
+		gender=not_set
+		trait="trait_agrarian"
+		trait="trait_industrious"
+		trait="trait_slow_learners"
+		trait="trait_sedentary"
+	}
+	name=
+	{
+		key="Werhenian Augmented Workers"
+		literal=yes
+	}
+	adjective=
+	{
+		key="Werhenian"
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	advisor_voice_type="l_pacifist"
+	planet_name=
+	{
+		key="SPEC_Adnoran_planet"
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="SPEC_Adnoran_system"
+	}
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="corporate"
+			file="corporate_01.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_54.dds"
+		}
+		colors=
+		{
+			"purple"
+			"blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MAM3_CHR_Guldorn"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MAM3_CHR_hadMarn"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="cyb2_f"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_corporate_guided_sapience"
+		"civic_task_delegation_corporate"
+	}
+	origin="origin_cybernetic_creed"
+}
+"Encroaching Ruin"=
+{
+	key="Encroaching Ruin"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_01"
+		species_name=
+		{
+			key="Human"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Humans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Human"
+			literal=yes
+		}
+		species_bio="In the grim darkness of the far future, the Emperor of Mankind has ascended to godhood. Through His ascension, all of mankind has been transformed and enslaved to His will. Earth itself has been transformed into a hellish landscape. All will serve The Dark King, or be destroyed."
+		name_list="HUMAN3"
+		gender=not_set
+		trait="trait_communal"
+		trait="trait_docile"
+		trait="trait_strong"
+		trait="trait_slow_learners"
+		trait="trait_sedentary"
+	}
+	name=
+	{
+		key="Encroaching Ruin"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Ruin"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_purity_order"
+	planet_name=
+	{
+		key="Earth"
+		literal=yes
+	}
+	planet_class="pc_alpine"
+	system_name=
+	{
+		key="Sol"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="necroid_01"
+	city_graphical_culture="cybernetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_22.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_41.dds"
+		}
+		colors=
+		{
+			"red"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN3_CHR_Octavius"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN3_CHR_Magius"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_hp_01"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=5
+		ruler_title=
+		{
+			key="Dark King's Emissary"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Dark King's Emissary"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="runic_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_fanatic_purifiers"
+		"civic_reanimated_armies"
+	}
+	origin="origin_doomsday"
+}
+"IngSoc of Terra"=
+{
+	key="IngSoc of Terra"
+	ship_prefix=
+	{
+		key="ISS"
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human_legacy"
+		species_name=
+		{
+			key="Human"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Humans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Human"
+			literal=yes
+		}
+		species_bio="In this alternate timeline, the supernation of Oceania succeeded in conquering the other two superpowers, forming a global hegemony. Shortly after this planetary unification, a disease quietly and rapidly spread across the world. This unknown disease rendered the entire human race sterile. It is unknown if it came from another planet, occurred naturally, or was a leaked weapon of the Party's creation."
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_pathogenic_genes"
+	}
+	name=
+	{
+		key="IngSoc of Terra"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="IngSoc"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_totalitarian_regime"
+	planet_name=
+	{
+		key="Terra"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Sol"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_3.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors=
+		{
+			"red"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUMAN1_CHR_Karl"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUMAN1_CHR_vonWrangel"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="human_legacy_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=36
+		clothes=6
+		ruler_title=
+		{
+			key="Big Brother"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Big Sister"
+			literal=yes
+		}
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cybernetics_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_dystopian_society"
+		"civic_police_state"
+	}
+	origin="origin_synthetic_fertility"
 }
